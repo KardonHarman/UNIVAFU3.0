@@ -1,16 +1,23 @@
 <div class="abi-wrapper">
-  <img class="abi-image-opts" src="http://univafu.edu.mx/assetsWebsite/images/univafu/univafu_portada.jpg" alt="UNIVAFU">
+  <img class="abi-image-opts" src="../../../assets/assets/images/univafu/1.jpg" alt="UNIVAFU">
   <div class="abi-centrar">
     <div class="line abi-info-line"></div>
-    <h1>UNIVAFU Universidad</h1>
-    <p>Buscamos impulsar tu creatividad y orientarla hacia la investigación, para que desarrolles conocimientos y habilidades
-      que te ayuden a ser una persona autónoma y con poder de decisión.</p>
+     <h1>UNIVAFU Universidad</h1>
+    <!--<p>Buscamos impulsar tu creatividad y orientarla hacia la investigación, para que desarrolles conocimientos y habilidades
+      que te ayuden a ser una persona autónoma y con poder de decisión.</p> -->
+  </div>
+</div>
+<div class="conoce">
+  <div class="conoce-header">
+    <p>Conoce las instalaciones especializadas de vanguardia que te esperan en UNIVAFU.
+
+    </p>
   </div>
 </div>
 
-<div class="wrapper-mvp" #mvp>
+<!-- <div class="wrapper-mvp" #mvp>
   <div class="mvp-box1">
-    <img *ngIf="_uvfService.mobileQuery.matches" src="http://univafu.edu.mx/assetsWebsite/images/univafu/univafu.jpg" alt="UNIVAU">
+    <img *ngIf="_uvfService.mobileQuery.matches" src="../../../assets/assets/images/univafu/sala.jpg" alt="UNIVAU">
   </div>
   <div class="mvp-box2 uvf-mvp">
     <div class="uvf-mvp-box">
@@ -56,6 +63,26 @@
       </ul>
     </div>
   </div>
-</div>
+</div> -->
+<div class="serv">
 
+  <div class="serv-flex-wrapper" #sala>
+    <div *ngIf="_uvfService.mobileQuery.matches" class="serv-sala serv-img"></div>
+    <div class="serv-descs" [@staggerAnim]="staggerStatesala">
+      <h2 class="staggerItem">SALA DE REHABILITACIÓN TERAPÉUTICA</h2>
+      <p style="margin-top: 60px;" class="staggerItem">Nuestros alumnos de la Lic. en Terapia Física y Rehabilitación cuentan con un espacio para poner su conocimiento en práctica utilizando técnicas y métodos como Kinesioterapia, Kinestología, Masoterapia y muchas otras más.</p>
+      <br>
+    </div>
+  </div>
+
+  <div class="serv-flex-wrapper" #lab>
+    <div class="serv-descs" [@staggerAnim]="staggerStatelab">
+      <h2 class="staggerItem">LABORATORIO DE FISIOTERAPIA</h2>
+      <p style="margin-top: 30px;" class="staggerItem">Un espacio que combina el uso de agentes físio-terapéuticos, terapia manual y técnicas de rehabilitación neurológica y musculo-esqueléticas con la finalidad de que nuestros alumnos puedan llevar sus conocimientos teóricos a la práctica.</p>
+      <br>
+    </div>
+    <div *ngIf="_uvfService.mobileQuery.matches" class="serv-lab serv-img"></div>
+  </div>
+
+</div>
 <app-footer></app-footer>

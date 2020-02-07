@@ -3,10 +3,95 @@
     justify-content: center;
 }
 
+@media only screen and (min-width: 700px) { 
+    .conoce-header > p{
+        margin: 2% 20% 3%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
 @media only screen and (min-width: 900px) { 
 
     .uvf-center-info {
         font-size: 1.2em;
     }
+        /*servicios*/
+    /* .serv {
+        margin: 16px 0;
+    } */
+
+    .serv-logo {
+        height: auto;
+        width: 10em;
+    }
+
+    .serv-descs {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.5s;
+    }
+
+    .serv-descs > p {
+        transition: color 0.5s;
+    }
+
+    .serv-animate-descs {
+        background-color: #3d95d4;
+    }
+
+    .serv-img {
+        height: 30em;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform 0.2s;
+    }
+
+    .serv-sala {
+        background-image: url("../../../assets/assets/images/univafu/sala.jpg");
+    }
+
+    .serv-lab {
+        background-image: url("../../../assets/assets/images/univafu/2.jpg");
+    }
+    
+
+    .serv-flex-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .serv-descs {
+        width: 100%;
+        padding: 0;
+    }
+
+    .serv-flex-wrapper  p {
+        font-size: 1.2em;
+        margin: 2.2em;
+    }
+
+    /* conoce */
+.conoce{
+    position: relative;
+    padding-bottom: 45px;
+    padding-top: 30px;
+    background: #d98a1b;
+    box-shadow: inset 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+    .conoce-header{
+        color: #fff;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+
 
 }
