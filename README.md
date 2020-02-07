@@ -2,4 +2,4 @@
 Sitio web UNIVAFU
 
 Material design palette generator
-http://mcg.mbitson.com/#!?mcgpalette0=%233d95d4
+http://mcg.mbitson.com/#!?mcgpalette0=%233d95d4# UNIVAFU3.0 
