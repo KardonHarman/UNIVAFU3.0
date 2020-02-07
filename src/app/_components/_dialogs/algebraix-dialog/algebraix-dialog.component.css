@@ -1,0 +1,42 @@
+.mat-form-field {
+    width: 100%;
+}
+
+.mat-checkbox {
+    font-size: 14px;
+    display: block;
+}
+
+.algeTitle {
+    color: rgba(0,0,0,0.7);
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+@media only screen and (min-width: 900px) { 
+    .mat-form-field {
+        width: initial;
+    }
+
+    .mat-checkbox {
+        display: inline-block;
+    }
+
+    .algePadding {
+        padding: 0 10px;
+    }
+
+    .algeTitle {
+        margin: 0 0 20px 10px !important;
+    }
+
+    .action-buttons {
+        justify-content: flex-end;
+    }
+}

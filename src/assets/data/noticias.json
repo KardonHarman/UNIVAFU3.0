@@ -1,0 +1,100 @@
+{
+    "noticias": [
+        {
+            "usuario": "UNIVAFU",
+            "img": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n1/1.jpg",
+            "tituloNoticia": "Acto Académico 2014-2018",
+            "noticiaTexto": [
+                {
+                    "parrafo": "Un centenar de familias festejaron el pasado 10 de julio al ver a sus hijos realizar su sueño."
+                },
+                {
+                    "parrafo": "Terapia Física y Rehabilitación, Terapia de Audición y Lenguaje, Nutrición, Gestión Turística y Gastronomía, Ingeniería en Sistemas Digitales Interactivos y Cultura Física y Deportes, fueron las licenciaturas que durante cuatro años cursaron cientos de jóvenes llenos de entusiasmo, dedicación y amor por su profesión."
+                },
+                {
+                    "parrafo": "El evento fue llevado a cabo en Salón Cantabria en punto de las 9:00 a.m. en donde se le otorgó la “Presea Perseverancia”, a la egresada María Gabriela Ruiz Valdez, por su destacada trayectoria, compromiso e identidad institucional. "
+                }
+            ],
+            "carousel": [
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n1/1.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n1/2.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n1/3.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n1/4.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n1/5.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n1/6.jpg"
+                }
+            ]
+        },
+        {
+            "usuario": "UNIVAFU",
+            "img": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n2/1.jpg",
+            "tituloNoticia": "Clausura de Instituto de Idiomas UNIVAFU",
+            "noticiaTexto": [
+                {
+                    "parrafo": "Con una serie de presentaciones, alumnos del Instituto de Idiomas UNIVAFU culminan su curso de Inglés Enero-Julio, en el Centro de Innovación y Educación de Los Mochis."
+                }
+            ],
+            "carousel": [
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n2/1.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n2/2.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n2/3.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n2/4.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n2/5.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n2/6.jpg"
+                }
+            ]
+        },
+        {
+            "usuario": "UNIVAFU",
+            "img": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n3/1.jpg",
+            "tituloNoticia": "Fisioterapia Intensivista",
+            "noticiaTexto": [
+                {
+                    "parrafo": "Como parte de su formación, alumnos de la Licenciatura en Terapia de Física y Rehabilitación, organizaron un evento denominado “Fisioterapia Intensivista”, en donde tanto invitados especiales como alumnos, egresados y maestros compartieron sus experiencias en el campo laboral."
+                }
+            ],
+            "carousel": [
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n3/1.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n3/2.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n3/3.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n3/4.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n3/5.jpg"
+                },
+                {
+                    "urlImg": "http://univafu.edu.mx/assetsWebsite/images/noticias-y-eventos/n3/6.jpg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+.iiu-line {
+    border-bottom-color: #1c447e;
+}
+
+.iiu-desc {
+    padding: 16px;
+}
+
+.iiu-logo {
+    width: 10em;
+    height: auto;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.iiu-gwb-box2-desc {
+    display: flex;
+    justify-content: center;
+}
+
+.iiu-gwb {
+    background: #1c447e;
+}
+
+.iiu-adicional {
+    padding: 16px;
+}
+
+.iiu-adicional > h1 {
+    text-align: center;
+}
+
+.iiu-beneficios {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 700px) { 
+    .iiu-desc {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iiu-desc > div {
+        max-width: 900px;
+    }
+
+    .iiu-desc p {
+        font-size: 1.3em;
+    }
+
+    .iiu-logo {
+        width: 16em;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .iiu-ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .iiu-adicional > h1 {
+        font-size: 3em;
+    }
+
+    .iiu-beneficios ul {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    .iiu-gwb-box2-desc {
+        font-size: 1.1em;
+    }
+ }

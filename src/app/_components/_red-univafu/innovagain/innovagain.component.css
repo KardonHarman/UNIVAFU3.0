@@ -1,0 +1,34 @@
+.innovagain-line {
+    border-bottom-color: #3d95d4;
+}
+
+.innovagain-desc {
+    padding: 16px;
+}
+
+.innovagain-logo {
+    width: 10em;
+    height: auto;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+@media only screen and (min-width: 700px) { 
+    .innovagain-desc {
+        display: flex;
+        justify-content: center;
+    }
+
+    .innovagain-desc > div {
+        max-width: 900px;
+    }
+
+    .innovagain-desc p {
+        font-size: 1.3em;
+    }
+
+    .innovagain-logo {
+        width: 16em;
+    }
+}

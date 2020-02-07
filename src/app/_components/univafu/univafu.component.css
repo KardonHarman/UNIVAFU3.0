@@ -1,0 +1,12 @@
+.uvf-center-info {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 900px) { 
+
+    .uvf-center-info {
+        font-size: 1.2em;
+    }
+
+}

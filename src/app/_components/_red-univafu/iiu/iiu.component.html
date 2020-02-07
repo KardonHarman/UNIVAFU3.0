@@ -1,0 +1,101 @@
+<div class="abi-wrapper">
+  <img class="abi-image-opts" src="http://univafu.edu.mx/assetsWebsite/images/red-univafu/iiu/idiomas_portada.jpg" alt="UNIVAFU-idiomas">
+  <div class="abi-centrar">
+    <div class="line abi-info-line iiu-line"></div>
+    <h1>IIU</h1>
+    <p class="iiu-center-txt">Instituto de Idiomas UNIVAFU</p>
+  </div>
+</div>
+
+<div class="iiu-desc">
+  <div>
+    <img class="iiu-logo" src="http://univafu.edu.mx/assetsWebsite/logos/iiu.png" alt="iiu instituto de idiomas UNIVAFU">
+    <p>El Instituto de Idiomas UNIVAFU, es un centro especializado en el aprendizaje de idiomas. IIU, es una institución abierta
+      al público en general, en donde recibimos a toda clase de alumnos interesados en aprender o actualizar sus conocimientos
+      en una lengua extranjera.</p>
+  </div>
+</div>
+
+<div class="wrapper-mvp" style="padding-top: 0;" #animation>
+  <div *ngIf="_uvfService.mobileQuery.matches" class="mvp-box1">
+    <img src="http://univafu.edu.mx/assetsWebsite/images/red-univafu/iiu/idiomas_2.jpg" alt="FUNDACION" class="fundacion-ar-img">
+  </div>
+  <div class="mvp-box2 iiu-mvp">
+    <div class="iiu-mvp-box">
+      <div class="line mvp-line iiu-line" [@barAnimation]="animationState"></div>
+      <h2>MISIÓN</h2>
+      <p class="mvp-box2-desc">Privilegiar la comunicación internacional.</p>
+    </div>
+    <div class="iiu-mvp-box">
+      <div class="line mvp-line iiu-line" [@barAnimation]="animationState"></div>
+      <h2>VISIÓN</h2>
+      <p class="mvp-box2-desc">Posicionarnos en nuestro estado como el mejor instituto de comunicación humana global.</p>
+    </div>
+    <div class="iiu-mvp-box">
+      <div class="line mvp-line iiu-line" [@barAnimation]="animationState"></div>
+      <h2>FILOSOFÍA</h2>
+      <p class="mvp-box2-desc">Somos perseverantes para darle valor a la expresión humana.</p>
+    </div>
+  </div>
+</div>
+
+<div class="gwb-container" [class.iiu-gwb]="!_uvfService.mobileQuery.matches">
+  <div class="gwb-bg"></div>
+  <div class="gwb-wrapper iiu-gwb" [class.mat-elevation-z4]="_uvfService.mobileQuery.matches">
+    <div class="gwb-box1">
+      <div class="line gwb-line iiu-line-w"></div>
+      <h1 class="gwb-box1-title iiu-center-txt">NUESTROS
+        <br *ngIf="_uvfService.mobileQuery.matches"> SERVICIOS</h1>
+    </div>
+    <div class="gwb-box2 iiu-gwb-box2-desc">
+      <ul class="gwb-list iiu-ul">
+        <li>
+          <p>Clases de inglés para niños (a partir de los 7 años).</p>
+        </li>
+        <li>
+          <p>Curso de inglés para jóvenes y adultos.</p>
+        </li>
+        <li>
+          <p>Clases de francés para niños (a partir de los 7 años).</p>
+        </li>
+        <li>
+          <p>Curso de francés para jóvenes y adultos.</p>
+        </li>
+        <li>
+          <p>Club de conversación.</p>
+        </li>
+        <li>
+          <p>Cursos de lectura y redacción.</p>
+        </li>
+        <li>
+          <p>Cursos para certificaciones.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="iiu-adicional">
+  <div class="line abi-info-line iiu-line"></div>
+  <h1 class="iiu-center-txt">BENEFICIOS ADICIONALES</h1>
+  <div class="iiu-beneficios" #staggerElement>
+    <div [@staggerAnim]="staggerState">
+      <ul>
+        <li>
+          <p class="staggerItem">Examen diagnóstico (sin costo).</p>
+        </li>
+        <li>
+          <p class="staggerItem">Material didáctico incluido.</p>
+        </li>
+        <li>
+          <p class="staggerItem">Seguro contra accidentes.</p>
+        </li>
+        <li>
+          <p class="staggerItem">Desarrollo de actividades en aula tecnológica.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

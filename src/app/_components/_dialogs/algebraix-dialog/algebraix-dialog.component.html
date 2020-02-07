@@ -1,0 +1,22 @@
+<h2 class="algeTitle" mat-dialog-title>Iniciar sesión en Algebraix</h2>
+
+<mat-dialog-content>
+  <form #algeForm method="post" action="https://c1-univafu.algebraix.com/bin/g/start/login_do/" target="_blank">
+
+    <mat-form-field class="algePadding">
+      <input type="text" name="username" matInput placeholder="Usuario" autocomplete="off">
+    </mat-form-field>
+
+    <mat-form-field class="algePadding">
+      <input type="password" name="password" matInput placeholder="Contraseña" autocomplete="off">
+    </mat-form-field>
+    
+    <mat-checkbox class="algePadding" color="primary" name="remember_me">No cerrar sesión</mat-checkbox>
+    
+    <div class="action-buttons">
+      <button type="button" mat-button mat-dialog-close tabindex="-1" color="primary" >CANCELAR</button>
+      <button type="submit" (click)="algeForm.submit()" mat-button mat-dialog-close tabindex="-1" color="primary">ENTRAR</button>
+    </div>
+    
+  </form>
+</mat-dialog-content>

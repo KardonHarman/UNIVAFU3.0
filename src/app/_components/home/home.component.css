@@ -1,0 +1,432 @@
+/* .video-wrapper {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#ytplayer {
+    position: absolute;
+    width: calc(100vh * (1000 / 562));
+    height: calc(100vw * (562 / 1000));
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(1.01);
+    transform: translate(-50%, -50%) scale(1.01);
+    background-color: #000;
+    filter: brightness(70%);
+} */
+
+.sentido-container {
+    padding: 0 16px;
+    position: relative;
+}
+
+.sentido-container h1 {
+    color: #FFF;
+}
+
+.sentido-container p {
+    color: #FFF;
+}
+
+/*oferta educativa*/
+
+.oec {
+    color: #fff;
+}
+
+.oec-line2 {
+    border-bottom-color: #fff;
+    opacity: 0;
+    transform: scale(0);
+    transition: transform 0.4s, opacity 0.8s;
+}
+
+.oec-box1{
+    color: #FFF;
+}
+
+.oferta-educativa-wrapper {
+    padding-bottom: 25px;
+    padding-top: 30px;
+    background: #3d95d4;
+}
+
+.oec-info-wrapper {
+    padding: 16px;
+}
+
+.oec-licenciaturas, .oec-posgrados, .oec-continua {
+    cursor: pointer;
+    position: relative;
+}
+
+.oec-img {
+    background-image: linear-gradient(to right,rgba(255,0,0,0),rgba(83,229,255,.52))!important;
+    height: auto;
+    width: 75%;
+    display: block;
+    background-color: #3d95d4;
+    max-height: 16em;
+    object-fit: cover;
+    transition: filter .3s;
+    margin: auto;
+}
+
+.oec-flex {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform .3s;
+}
+
+.white-stroked-button {
+    font-size: 1.1em;
+    border-width: 2px;
+    border-radius: 18px;
+    display: block;
+    margin: 0 auto;
+}
+.orange-stroked-button{
+    font-size: 1.1em;
+    border-radius: 18px;
+    display: block;
+    margin: 0 auto;
+    background-color: #D98A1B;
+}
+.blue-stroked-button{
+    padding: 10px 50px;
+    font-size: 2.1em;
+    box-shadow: 5px 10px 18px #888888;
+    border: 1px solid #3d95d4;
+    font-size: 1.1em;
+    border-width: 2px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    background-color: #3d95d4;
+    color: #fff;
+}
+
+/*servicios*/
+/* .serv {
+    margin: 16px 0;
+} */
+
+.serv-logo {
+    height: auto;
+    width: 10em;
+}
+
+.serv-descs {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s;
+}
+
+.serv-descs > p {
+    transition: color 0.5s;
+}
+
+.serv-animate-descs {
+    background-color: #3d95d4;
+}
+
+/* conoce */
+.conoce{
+    position: relative;
+    padding-bottom: 45px;
+    padding-top: 30px;
+    background: #d98a1b;
+    box-shadow: inset 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.oec-box1{
+    color: #FFF;
+}
+.conoce-header{
+    color: #fff;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+/* redunivafu */
+.red-wrapper{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.red-img{
+    height: auto;
+    width: 100%;
+    display: block;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+    max-height: 24em;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.red-info{
+    position: absolute;
+    color: #FFF;
+}
+
+.blue-line{
+    margin: auto;
+    border-bottom-color: #3d95d4;
+}
+
+/* servicios */
+.servicios-header{
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.servicios-header > h2{
+    color: #696969;
+    margin: 3% 15%;
+}
+
+/*noticias*/
+.noticias {
+    background: #f4f4f4;
+}
+
+.noticias-header {
+    text-align: center;
+    padding: 16px;
+}
+
+.noticias-line {
+    margin: auto;
+}
+
+.noticias-posts {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.my-card {
+    margin: 8px 16px;
+    min-width: 240px;
+    max-width: 428px;
+}
+
+.card-img-opts {
+    width: 100%;
+    height: auto;
+    background-color: #3d95d4;
+}
+
+.card-txt {
+    font-size: 14px;
+    color: rgba(0,0,0,.87);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media only screen and (min-width: 600px) { 
+    .oec {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 700px) { 
+    .video-wrapper {
+        align-items: flex-start;
+    }
+
+    .sentido-container {
+        width: 550px;
+    }
+    
+    .oec-info-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .oec-box1 {
+        width: 100%;
+        position: relative;
+    }
+
+    .oec-box1 > h1 {
+        text-align: center;
+        margin: 0.67em;
+    }
+
+    .oec-line {
+        position: absolute;
+        left: 48%;
+    }
+    .oec-licenciaturas{
+        margin-right: -120px;
+    }
+    .oec-continua{
+        margin-left: -120px;
+    }
+
+    .oec-info-wrapper {
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        /* padding: 30px; */
+    }
+
+    .noticias-header > h1 {
+        font-size: 3em;
+    }
+
+    .conoce-header > p{
+        margin: 2% 20% 3%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .red-img{
+        max-height: 32em;
+    }
+
+    .red-info > h1{
+        font-size: 3em;
+    }
+
+    .servicios-posts{
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+
+    .serv-post{
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 900px) { 
+    .sentido-container {
+        padding: 40px;
+    }
+
+    .sentido-container > h1 {
+        font-size: 3em;
+    }
+
+    .sentido-container > p {
+        font-size: 1.3em;
+    }
+
+    .oec-img {
+        max-height: 16em;
+    }
+
+    /* .oec-info-wrapper {
+        padding: 50px;
+    } */
+
+    .oec-box1 > h1 {
+        font-size: 3em;
+    }
+
+    .oec-box2 > p {
+        font-size: 1.3em;
+    }
+
+    /* .oec-line {
+        right: 0px;
+    } */
+
+
+    .servicios .mat-card-actions{
+        -webkit-box-align: center;
+        align-items: center;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+
+    .servicios button{
+        background-color: #d98a1b;
+        border-radius: 2px;
+        color: #fff;
+    }
+    .serv-img {
+        height: 30em;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform 0.2s;
+    }
+
+    .serv-iiu {
+        background-image: url("../../../assets/assets/images/home/index_estudia.jpg");
+    }
+
+    .serv-fundacion {
+        background-image: url("../../../assets/assets/images/home/index_docentes.jpg");
+    }
+    
+    .serv-innovagain {
+        background-image: url("../../../assets/assets/images/home/index_campus.jpg");
+    }
+    
+    /* .serv-iridh {
+        background-image: url("../../../assets/assets/images/home/index_iridh.jpg");
+    } */
+
+    .serv-flex-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .serv-descs {
+        width: 100%;
+        padding: 0;
+    }
+
+    .serv-flex-wrapper  p {
+        font-size: 1.2em;
+        margin: 2.2em;
+    }
+}

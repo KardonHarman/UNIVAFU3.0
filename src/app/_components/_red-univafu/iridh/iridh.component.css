@@ -1,0 +1,53 @@
+.iridh-line {
+    border-bottom-color: #1c447e;
+}
+
+.iridh-desc {
+    padding: 16px;
+}
+
+.iridh-logo {
+    width: 10em;
+    height: auto;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.iridh-gwb, .iridh-gwb-container {
+    background: #1c447e;
+}
+
+.iridh-gwb-box2 {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 700px) { 
+    .iridh-desc {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iridh-desc > div {
+        max-width: 900px;
+    }
+
+    .iridh-desc p {
+        font-size: 1.3em;
+    }
+
+    .iridh-logo {
+        width: 16em;
+    }
+}
+
+@media only screen and (min-width: 900px) { 
+    .iridh-gwb-container {
+        background-color: #fff;
+    }
+    
+    .iridh-gwb-box2 {
+        font-size: 1.2em;
+    }
+}

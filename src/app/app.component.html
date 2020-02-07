@@ -1,0 +1,64 @@
+<mat-sidenav-container>
+
+    <mat-sidenav #sidenav mode="over" fixedInViewport class="uvf-sidenav">
+
+        <button mat-icon-button tabindex="-1" (click)="sidenav.close()">
+            <mat-icon>close</mat-icon>
+        </button>
+
+        <mat-nav-list>
+            <!-- inicia sidenav menu -->
+
+            <div *ngFor="let link of mobileLinks">
+
+                <mat-list-item *ngIf="!link.lvl2id; else elseBlock">
+                    <a matLine [routerLink]="link.url" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="list-item-a"
+                        (click)="sidenav.close()">
+                        {{link.label}}
+                    </a>
+                </mat-list-item>
+
+                <ng-template #elseBlock>
+                    <!-- inicia  lvl2 sidenav menu -->
+
+                    <mat-list-item (click)="onLvl2Click(link.lvl2id, link.expandIconId)">
+                        <a matLine>{{link.label}}</a>
+                        <mat-icon class="lvl2-icon" [id]="link.expandIconId">expand_more</mat-icon>
+                    </mat-list-item>
+
+                    <div class="wrapper-lvl2" [id]="link.lvl2id">
+                        <mat-list-item *ngFor="let lvl2 of link.lvl2">
+                            <a *ngIf="!lvl2.website && !lvl2.clickeable" matLine [routerLink]="lvl2.url" routerLinkActive="active" class="list-item-a"
+                                (click)="sidenav.close()">
+                                <span class="lvl2-margin">{{lvl2.label}}</span>
+                            </a>
+                            <a *ngIf="lvl2.website" matLine class="list-item-a" [href]="lvl2.url" target="blank" (click)="sidenav.close()">
+                                <span class="lvl2-margin">{{lvl2.label}}</span>
+                            </a>
+                            <a *ngIf="lvl2.clickeable" matLine class="list-item-a" (click)="onAlgebraix()">
+                                <span class="lvl2-margin">{{lvl2.label}}</span>
+                            </a>
+                        </mat-list-item>
+                    </div>
+
+                </ng-template>
+                <!-- termina lvl2 sidenav menu -->
+            </div>
+        </mat-nav-list>
+        <!-- termina sidenav menu -->
+
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+
+        <mat-progress-bar *ngIf="progressBar" mode="indeterminate" color="accent"></mat-progress-bar>
+
+        <app-navbar></app-navbar>
+
+        <div class="routeContainer" [@routeAnimation]="getDepth(myOutlet)">
+            <router-outlet #myOutlet="outlet"></router-outlet>
+        </div>
+
+    </mat-sidenav-content>
+
+</mat-sidenav-container>

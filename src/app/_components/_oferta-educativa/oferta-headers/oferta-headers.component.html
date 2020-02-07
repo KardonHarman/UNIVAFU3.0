@@ -1,0 +1,29 @@
+<div class="abi-wrapper">
+  <img *ngIf="_uvfService.headers" class="abi-image-opts" [src]="_uvfService.headers?.imgUrl" alt="UNIVAFU-carreras">
+  <div class="abi-centrar">
+    <div class="line abi-info-line"></div>
+    <h1>{{_uvfService.headers?.title}}</h1>
+    <p>{{_uvfService.headers?.desc}}</p>
+  </div>
+</div>
+
+<div class="programas-wrapper">
+  <div class="pro-box1">
+    <div class="line pro-line"></div>
+    <h1>{{_uvfService.headers?.title2}}
+      <br *ngIf="_uvfService.mobileQuery.matches">{{_uvfService.headers?.title3}}</h1>
+  </div>
+  <div class="pro-box2">
+    <mat-nav-list>
+      <a mat-list-item *ngFor="let programa of _uvfService.links" [routerLink]="programa.url" routerLinkActive="pos-active" (click)="onPrograma()">
+        <mat-icon>arrow_forward</mat-icon> {{programa.label}}
+      </a>
+    </mat-nav-list>
+  </div>
+
+  <div #smooth class="smooth-element"></div>
+</div>
+
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>

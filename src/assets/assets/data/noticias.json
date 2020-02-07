@@ -1,0 +1,91 @@
+{
+    "noticias": [
+        {
+            "usuario": "UNIVAFU",
+            "img": "/assets/images/noticias-y-eventos/bs/1.jpg",
+            "tituloNoticia": "JORNADA DE SALUD",
+            "css": "my-card",
+            "imgopts": "card-img-opts",
+            "noticiaTexto": [
+                {
+                    "parrafo1": "En el marco del día mundial contra la Diabetes y obesidad, alumnos de la Licenciatura en Nutrición en colaboración con salud municipal, encabezaron una Jornada de Salud en la Zona 30 y Plaza Sendero, en la que se brindó asesoría nutricional exclusiva para personas con obesidad y diabetes, glucometrías, toma de presión, peso y talla."
+                }
+            ],
+            "carousel": [
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/bs/1.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/bs/2.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/bs/3.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/bs/4.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/bs/5.jpg"
+                }
+            ]
+        },
+        {
+            "usuario": "UNIVAFU",
+            "img": "/assets/images/noticias-y-eventos/ct/1.jpg",
+            "tituloNoticia": "FIRMA DE CONVENIO CON TOMATO VALLEY",
+            "css": "my-card",
+            "imgopts": "card-img-opts",
+            "noticiaTexto": [
+                {
+                    "parrafo1": "Tomato Valley y UNIVAFU Universidad unimos lazos para el desarrollo de nuevos proyectos y el crecimiento profesional de nuestros alumnos. Fernando Gallardo, Presidente de Tomato Valley, mencionó que “en Sinaloa tenemos mucho talento en el tema de tecnología” y que con este convenio de colaboración, los alumnos de UNIVAFU Universidad tendrán la oportunidad de acceder a los apoyos y mentoría en temas de emprendimiento que ofrece Tomato, así mismo acceso a eventos, videoconferencias, prácticas profesionales con proyectos Talent land, hackademy, registro a tomato student lead y abiertos a las posibilidades de trabajar con ingeniería de datos, educación dual, y proyectos reales de programación web con motivo de apoyar a la universidad y a todos nuestros alumnos con las herramientas que poseen."
+                }
+            ],
+            "carousel": [
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ct/1.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ct/2.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ct/3.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ct/4.jpg"
+                }
+            ]
+        },
+        {
+            "usuario": "UNIVAFU",
+            "img": "/assets/images/noticias-y-eventos/ed/1.jpg",
+            "tituloNoticia": "ENCUENTRO DEPORTIVO",
+            "css": "my-card",
+            "imgopts": "card-img-opts",
+            "noticiaTexto": [
+                {
+                    "parrafo1": "Alumnos de UNIVAFU Universidad compiten entre sí en un evento denominado 'Encuentro Deportivo', que se llevó a cabo en la Ciudad Deportiva Aurelio Rodríguez, encabezado por alumnos de la Licenciatura en Cultura Física y Deportes."
+                }
+            ],
+            "carousel": [
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ed/1.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ed/2.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ed/3.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ed/4.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ed/5.jpg"
+                },
+                {
+                    "urlImg": "/assets/images/noticias-y-eventos/ed/6.jpg"
+                }
+            ]
+        }
+    ]
+}

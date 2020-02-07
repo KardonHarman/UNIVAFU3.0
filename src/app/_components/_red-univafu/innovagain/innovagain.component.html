@@ -1,0 +1,61 @@
+<div class="abi-wrapper">
+  <img class="abi-image-opts" src="http://univafu.edu.mx/assetsWebsite/images/red-univafu/innovagain/innovagain_portada.jpg"
+    alt="UNIVAFU-innovagain">
+  <div class="abi-centrar">
+    <div class="line abi-info-line innovagain-line"></div>
+    <h1>INNOVAGAIN</h1>
+  </div>
+</div>
+
+<div class="innovagain-desc">
+  <div>
+    <img class="innovagain-logo" src="http://univafu.edu.mx/assetsWebsite/logos/innovagain.png" alt="innovagain instituto de idiomas UNIVAFU">
+    <p>Somos agencia de innovación y negocios, enfocada a la transferencia de conocimiento y comercialización de tecnologías,
+      que nace con la misión de fortalecer el ecosistema de innovación y emprendimiento de la región, mediante servicios
+      de asesoría y consultoría para el desarrollo, acompañamiento de emprendedores y empresarios, así como, la comercialización
+      de tecnologías de alto impacto.</p>
+  </div>
+</div>
+
+<div class="wrapper-mvp inno-mvp-wrapper">
+  <div *ngIf="_uvfService.mobileQuery.matches" class="mvp-box1">
+    <img src="http://univafu.edu.mx/assetsWebsite/images/red-univafu/innovagain/innovagain_1.jpg" alt="INNOVAGAIN">
+  </div>
+  <div class="mvp-box2" #animation>
+    <div class="innovagain-flex-box">
+      <div>
+        <div class="line mvp-line innovagain-line" [@barAnimation]="animationState"></div>
+        <h2 class="inno-mvp-box2-h2">Nuestros servicios se enfocan
+          <br>a las siguientes áreas de especialidad:</h2>
+        <ul>
+          <li>
+            <p class="inno-mvp-box2-p">Gestión de la innovación.</p>
+          </li>
+          <li>
+            <p class="inno-mvp-box2-p">Gestión de apoyos gubernamentales.</p>
+          </li>
+          <li>
+            <p class="inno-mvp-box2-p">Transferencia de tecnología.</p>
+          </li>
+          <li>
+            <p class="inno-mvp-box2-p">Vigilancia tecnológica e inteligencia competitiva.</p>
+          </li>
+          <li>
+            <p class="inno-mvp-box2-p">Propiedad intelectual.</p>
+          </li>
+          <li>
+            <p class="inno-mvp-box2-p">Incubación de empresas.</p>
+          </li>
+          <li>
+            <p class="inno-mvp-box2-p">Mentorías.</p>
+          </li>
+          <li>
+            <p class="inno-mvp-box2-p">Formulación y evaluación de proyectos tecnológicos.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

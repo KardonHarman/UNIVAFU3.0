@@ -1,0 +1,504 @@
+{
+    "headers": {
+        "imgUrl": "/assets/images/oferta-educativa/posgrados/2.jpg",
+        "title": "POSGRADOS",
+        "title2": "PROGRAMAS",
+        "title3": " DE POSGRADO",
+        "desc": "Te invitamos a conocer los programas ejecutivos que UNIVAFU Universidad tiene para tí."
+    },
+    "links": [
+        {
+            "label": "Maestría en Metodología del Entrenamiento Deportivo",
+            "url": "mmed"
+        },
+        {
+            "label": "Maestría en Educación",
+            "url": "medu"
+        },
+        {
+            "label": "Maestría en Nutrición Clínica y Hospitalaria",
+            "url": "mnut"
+        },
+        {
+            "label":"Maestría en Desarrollo del Capital Humano",
+            "url": "mdch"
+
+        },
+        {
+            "label":"Especialidad en Prevención y Rehabilitación de Lesiones Deportivas",
+            "url": "epyr"
+
+        }
+    ],
+    "mmed": {
+        "urlImg1": "/assets/images/oferta-educativa/posgrados/mmed/1.jpg",
+        "titulo1": "Maestría en Metodología del Entrenamiento Deportivo",
+        "desc1": "Es un programa que forma profesionales con plena conciencia de los procesos que rigen el entrenamiento deportivo de alto rendimiento, partiendo de una visión científico-tecnológica, permitiéndoles ser un ente facilitador del cambio en los deportistas e instituciones del sector público o privado.",
+        "titulo2": "Perfil de egreso",
+        "subTitulo2": "Serás capaz de:",
+        "desc2": "",
+        "over": true,
+        "lista2": [
+            {
+                "line": "Elaboración de planes de trabajo, dirigir y controlar su ejecución y evaluar  con un enfoque sistemático."
+            },
+            {
+                "line": "Diseñar y dirigir investigaciones encaminadas a la solución de problemas científicos relacionados con el rendimiento deportivo, integrando y sistematizando en el proceso de preparación del deportista, los conocimientos de las ciencias aplicadas."
+            },
+            {
+                "line": "Elevado nivel de dominio teórico y metodológico con carácter interdisciplinario en la innovación y gestión de la calidad del desarrollo de la actividad física y el deporte  en general."
+            },
+            {
+                "line": "Habilidad para la integración, organización y/o dirección de equipos de investigación, con un carácter innovador."
+            },
+            {
+                "line": "Disposición para diagnosticar, diseñar y proponer respuestas a la problemática en el área de la metodología del entrenamiento deportivo."
+            }
+        ],
+        "urlImg2": "/assets/images/oferta-educativa/posgrados/mmed/2.jpg",
+        "urlImg3": "/assets/images/oferta-educativa/posgrados/mmed/3.jpg",
+        "titulo3": "Modalidad",
+        "desc3": "El programa se desarrolla en cuatro semestres en modalidad mixta, en sesiones presenciales y virtuales, con el uso de plataforma educativa. Se realizarán estudios de casos y proyectos por asignatura, participando en coloquios, con opción a publicar en revista científica.",
+        "lista3": [],
+        "semestres": [
+            {
+                "titulo": "1er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Novedades Pedagógicas y Didácticas en el Deporte"
+                    },
+                    {
+                        "titulo": "Fisiología y Bioquímica en el Entrenamiento Deportivo"
+                    },
+                    {
+                        "titulo": "Modelos Mecánicos en el Deporte"
+                    },
+                    {
+                        "titulo": "Estadística Aplicada a la Actividad Deportiva"
+                    },
+                    {
+                        "titulo": "Metodología de la Investigación en los Deportes"
+                    }
+                ]
+            },
+            {
+                "titulo": "2do Semestre",
+                "materias": [
+                    {
+                        "titulo": "Psicología para el Rendimiento Deportivo"
+                    },
+                    {
+                        "titulo": "Control Médico del Entrenamiento Deportivo "
+                    },
+                    {
+                        "titulo": "Teoría y Metodología del Entrenamiento Deportivo I"
+                    },
+                    {
+                        "titulo": "Modelación del Proceso de Entrenamiento"
+                    },
+                    {
+                        "titulo": "Seminario de Investigación I"
+                    }
+                ]
+            },
+            {
+                "titulo": "3er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Etapas de Formación del Deportista"
+                    },
+                    {
+                        "titulo": "Nutrición y Rendimiento Deportivo"
+                    },
+                    {
+                        "titulo": "Teoría y Metodología del Entrenamiento Deportivo II"
+                    },
+                    {
+                        "titulo": "Seminario de Investigación II"
+                    }
+                ]
+            },
+            {
+                "titulo": "4to Semestre",
+                "materias": [
+                    {
+                        "titulo": "Higiene y Prevención de Traumas Físicos"
+                    },
+                    {
+                        "titulo": "Gestión y Dirección del Deporte"
+                    },
+                    {
+                        "titulo": "Seminario de Investigación III"
+                    }
+                ]
+            }
+        ]
+    },
+    "medu": {
+        "urlImg1": "/assets/images/oferta-educativa/posgrados/medu/1.jpg",
+        "titulo1": "Maestría en Educación",
+        "desc1": "Es un programa orientado a la profesionalización, el fortalecimiento y la actualización de la práctica docente, a través del conocimiento, análisis y reflexión de los fundamentos teóricos de la educación, con el fin de diseñar y aplicar acciones innovadoras, para responder a las necesidades de calidad y pertinencia de la educación actual y futura.",
+        "titulo2": "Perfil de egreso",
+        "subTitulo2": "Serás capaz de:",
+        "desc2": "",
+        "over": true,
+        "lista2": [
+            {
+                "line": "Explorar, construir, adecuar, evaluar y mejorar la propia práctica docente, a partir de la reflexión crítica y la autoevaluación, asumiendo la necesidad de actualización y formación continua, en el ejercicio de la educación."
+            },
+            {
+                "line": "Intervención en procesos de gestión educativa, que promuevan la innovación de las instituciones y el desarrollo del talento humano que las conforma."
+            },
+            {
+                "line": "Aplicación de tecnologías de información actuales,  que estratégicamente gestionen los procesos relacionados con la integración de la misma, en diversos entornos del aprendizaje."
+            },
+            {
+                "line": "Aplicar distintas líneas de investigación, enfocadas en la solución de problemáticas de la educación actual, con propuestas de innovación en el proceso educativo."
+            }
+        ],
+        "urlImg2": "/assets/images/oferta-educativa/posgrados/medu/2.jpg",
+        "urlImg3": "/assets/images/oferta-educativa/posgrados/medu/3.jpg",
+        "titulo3": "Modalidad",
+        "desc3": "El programa se desarrolla en cuatro semestres en modalidad mixta, en sesiones presenciales y virtuales, con el uso de plataforma educativa. Se realizarán estudios de casos y proyectos por asignatura, participando en coloquios, con opción a publicar en revista científica.",
+        "lista3": [],
+        "semestres": [
+            {
+                "titulo": "1er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Pedagogía"
+                    },
+                    {
+                        "titulo": "Didáctica y Currículum"
+                    },
+                    {
+                        "titulo": "Práctica Docente"
+                    },
+                    {
+                        "titulo": "Metodología de Investigación"
+                    }
+                ]
+            },
+            {
+                "titulo": "2do Semestre",
+                "materias": [
+                    {
+                        "titulo": "Modalidades y Modelos Educativos"
+                    },
+                    {
+                        "titulo": "Métodos y Técnicas Didácticas"
+                    },
+                    {
+                        "titulo": "Tecnologías Digitales en la Educación"
+                    },
+                    {
+                        "titulo": "Abordaje de la Investigación"
+                    }
+                ]
+            },
+            {
+                "titulo": "3er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Estrategias de Enseñanza y Aprendizaje"
+                    },
+                    {
+                        "titulo": "Técnicas y Dinámicas Grupales"
+                    },
+                    {
+                        "titulo": "Innovación Educativa"
+                    },
+                    {
+                        "titulo": "Análisis de Datos de la Investigación"
+                    }
+                ]
+            },
+            {
+                "titulo": "4to Semestre",
+                "materias": [
+                    {
+                        "titulo": "Planeación Didáctica"
+                    },
+                    {
+                        "titulo": "Evaluación del Aprendizaje y la Práctica Educativa"
+                    },
+                    {
+                        "titulo": "Gestión de la Calidad Educativa"
+                    },
+                    {
+                        "titulo": "Síntesis de la Investigación"
+                    }
+                ]
+            }
+        ]
+    },
+    "mnut": {
+        "urlImg1": "/assets/images/oferta-educativa/posgrados/mnut/1.jpg",
+        "titulo1": "Maestría en Nutrición Clínica y Hospitalaria",
+        "desc1": "Es un programa orientado a la formación de especialistas en Nutrición Clínica y Hospitalaria, actualizados y comprometidos con su ética profesional; capaces de evaluar y realizar una intervención nutricional de calidad, eficaz, segura y humana, para prevenir, tratar y disminuir riesgos de  enfermedades relacionadas con la nutrición, fundamentado en evidencia científica.",
+        "titulo2": "Perfil de egreso",
+        "subTitulo2": "Serás capaz de:",
+        "desc2": "",
+        "over": true,
+        "lista2": [
+            {
+                "line": "Ejercer como profesional crítico, analítico y ético, en relación con la aplicación de los conocimientos de Nutrición Clínica, para enfrentar eficazmente la problemática de salud del país, a través de la utilización de las tecnologías de información actuales."
+            },
+            {
+                "line": "Desarrollo de competencias específicas para el abordaje nutricional en diferentes áreas médicas como: Gastroenterología, Oncología, Cirugía, Endocrinología, Cardiología y Nefrología, de acuerdo a las guías de práctica clínica nacionales e internacionales, coadyuvando en equipos interdisciplinarios."
+            },
+            {
+                "line": "Evaluar el estado nutricional de individuos sanos y enfermos para sustentar un diagnóstico, basado en la evidencia científica y en lineamientos establecidos por organismos de carácter regulatorio."
+            },
+            {
+                "line": "Generar proyectos en el área de Nutrición Clínica y Hospitalaria, contribuyendo a la solución de problemas alimentarios en la sociedad, y  promoviendo la difusión de la investigación y  el conocimiento científico."
+            }
+        ],
+        "urlImg2": "/assets/images/oferta-educativa/posgrados/mnut/2.jpg",
+        "urlImg3": "/assets/images/oferta-educativa/posgrados/mnut/3.jpg",
+        "titulo3": "Modalidad",
+        "desc3": "El programa se desarrolla en cuatro semestres en modalidad mixta, en sesiones presenciales y virtuales, con el uso de plataforma educativa. Se realizarán estudios de casos y proyectos por asignatura, participando en coloquios, con opción a publicar en revista científica.",
+        "lista3": [],
+        "semestres": [
+            {
+                "titulo": "1er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Fisiología y Bioquímica de la Nutrición"
+                    },
+                    {
+                        "titulo": "Evaluación Clínica-Hospitalaria Nutricional"
+                    },
+                    {
+                        "titulo": "Cálculo de Requerimientos Nutricionales"
+                    },
+                    {
+                        "titulo": "Epidemiología y Bioestadística en Nutrición"
+                    },
+                    {
+                        "titulo": "Metodología de la Investigación en Nutrición"
+                    }
+                ]
+            },
+            {
+                "titulo": "2do Semestre",
+                "materias": [
+                    {
+                        "titulo": "Nutrición Enteral y Parenteral"
+                    },
+                    {
+                        "titulo": "Nutrición en Enfermedades Cardiovasculares"
+                    },
+                    {
+                        "titulo": "Nutrición en Enfermedades Músculo-Esqueléticas y Cirugía"
+                    },
+                    {
+                        "titulo": "Nutrición en Enfermedades Endocrinológicas y Metabólicas"
+                    },
+                    {
+                        "titulo": "Seminario de Investigación I"
+                    }
+                ]
+            },
+            {
+                "titulo": "3er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Nutrición en Oncología"
+                    },
+                    {
+                        "titulo": "Nutrición en Enfermedad Renal"
+                    },
+                    {
+                        "titulo": "Nutrición y Dietoterapia en Patologías Especiales"
+                    },
+                    {
+                        "titulo": "Seminario de Investigación II"
+                    }
+                ]
+            },
+            {
+                "titulo": "4to Semestre",
+                "materias": [
+                    {
+                        "titulo": "Nutrición en Enfermedades Gastrointestinales"
+                    },
+                    {
+                        "titulo": "Nutrición en Enfermedades Infecciosas"
+                    },
+                    {
+                        "titulo": "Prácticas Clínicas-Hospitalarias"
+                    },
+                    {
+                        "titulo": "Seminario de Investigación III"
+                    }
+                ]
+            }
+        ]
+    },
+    "mdch":{
+        "urlImg1": "/assets/images/oferta-educativa/posgrados/mdch/1.jpg",
+        "titulo1": "Maestría en Desarrollo del Capital Humano",
+        "desc1": "Es un programa que forma profesionales de capacidad gerencial y organizacional, competentes en la identificación, análisis y evaluación de los distintos factores que intervienen en el desempeño de las organizaciones, para que a través del diseño de planes estratégicos que impulsen el desarrollo integral del capital humano que poseen y el que se integrará, cumplan con el propósito de mejorar continuamente la productividad, el desarrollo personal y el entorno del que forman parte.",
+        "titulo2": "Perfil de egreso",
+        "subTitulo2": "Serás capaz de:",
+        "desc2": "",
+        "over": true,
+        "lista2": [
+            {
+                "line": "Realizar diagnósticos situacionales relacionados con la organización y con el talento humano que la compone, identificando y analizando las transformaciones en el ambiente interno y externo, que actúan como agentes de cambio para la búsqueda de la mejora continua."
+            },
+            {
+                "line": "Aplicar las métricas necesarias para proponer estrategias en relación a la gestión de personal y el contexto organizacional, con el objetivo de potencializar la mejora continua y el fortalecimiento de la efectividad en los distintos ámbitos que componen la organización."
+            },
+            {
+                "line": "Optimizar el talento de las personas, basados en la necesidad de contar con competencias profesionales para gestionar, dirigir, motivar y liderar el talento humano, mismo que es la base de las organizaciones para enfrentar las demandas y exigencias del entorno global actual."
+            },
+            {
+                "line": "Ejecutar investigaciones sobre capital humano en el ámbito organizacional, contribuyendo al desarrollo de nuevos programas como estrategia para generar alternativas de solución y gestión del cambio.."
+            }
+        ],
+        "urlImg2": "/assets/images/oferta-educativa/posgrados/mdch/2.jpg",
+        "urlImg3": "/assets/images/oferta-educativa/posgrados/mdch/3.jpg",
+        "titulo3": "Modalidad",
+        "desc3": "El programa se desarrolla en cuatro semestres en modalidad mixta, en sesiones presenciales y virtuales, con el uso de plataforma educativa. Se realizarán estudios de casos y proyectos por asignatura, participando en coloquios, con opción a publicar en revista científica.",
+        "lista3": [],
+        "semestres": [
+            {
+                "titulo": "1er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Bases del Capital Humano"
+                    },
+                    {
+                        "titulo": "Evaluación del Comportamiento Organizacional"
+                    },
+                    {
+                        "titulo": "Motivación del Capital Humano"
+                    },
+                    {
+                        "titulo": "Metodología de la Investigación del Desarrollo Humano"
+                    }
+                ]
+            },
+            {
+                "titulo": "2do Semestre",
+                "materias": [
+                    {
+                        "titulo": "Comunicación Gerencial y Marketing"
+                    },
+                    {
+                        "titulo": "Psicología Positiva Empresarial"
+                    },
+                    {
+                        "titulo": "Seminario de Coaching y Liderazgo"
+                    },
+                    {
+                        "titulo": "Abordate de la Investigación"
+                    }
+                ]
+            },
+            {
+                "titulo": "3er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Cultura Organizacional"
+                    },
+                    {
+                        "titulo": "Estructura de Métricas para la organización"
+                    },
+                    {
+                        "titulo": "Desarrollo del Pensamiento Estratégico"
+                    },
+                    {
+                        "titulo": "Análisis de Datos de la Investigación"
+                    }
+                ]
+            },
+            {
+                "titulo": "4to Semestre",
+                "materias": [
+                    {
+                        "titulo": "Entrevistas por Competencias"
+                    },
+                    {
+                        "titulo": "Desarrollo Integral de Grupo"
+                    },
+                    {
+                        "titulo": "Feedback"
+                    },
+                    {
+                        "titulo": "Sinstésis de la Investigación"
+                    }
+                ]
+            }
+        ]
+    },
+    "epyr":{
+        "urlImg1": "/assets/images/oferta-educativa/posgrados/epyr/1.jpg",
+        "titulo1": "Especialidad en Prevención y Rehabilitación de Lesiones Deportivas",
+        "desc1": "Tiene como finalidad formar profesionales líderes en el ámbito deportivo, con una base de conocimientos especializados sobre las distintas técnicas de abordaje terapéutico, para diseñar planes de tratamiento fisioterapéutico desde una visión multidisciplinaria y funcional del mismo, teniendo como objetivo prioritario la salud, prevención y recuperación funcional del deportista de alto rendimiento y amateur.",
+        "titulo2": "Perfil de egreso",
+        "subTitulo2": "Serás capaz de:",
+        "desc2": "",
+        "over": true,
+        "lista2": [
+            {
+                "line": "Aplica de forma precisa las técnicas destinadas a minimizar el tiempo de recuperación de las lesiones, desarrollando una Metodología de Intervención, que permita adaptarse a las diferentes guías terapéuticas y preventivas en estos campos."
+            },
+            {
+                "line": "Diseña un plan de intervención de fisioterapia atendiendo a criterios de adecuación, validez y eficiencia, adaptado a la individualidad del usuario."
+            },
+            {
+                "line": "Basado en el método científico, desarrolla competencias para la ejecución de proyectos en el área de prevención y rehabilitación de las lesiones deportivas, contribuyendo a la solución de problemas en el ámbito deportivo de alto rendimiento y amateur, promoviendo la difusión y el conocimiento científico. "
+            }
+        ],
+        "urlImg2": "/assets/images/oferta-educativa/posgrados/epyr/2.jpg",
+        "urlImg3": "/assets/images/oferta-educativa/posgrados/epyr/3.jpg",
+        "titulo3": "Modalidad",
+        "desc3": "El programa se desarrolla en dos semestres en modalidad mixta, en sesiones presenciales y virtuales, con el uso de plataforma educativa. Se realizarán estudios de casos y proyectos por asignatura, participando en coloquios, con opción a publicar en revista científica.",
+        "lista3": [],
+        "semestres": [
+            {
+                "titulo": "1er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Fundamentos de las Lesiones Deportivas"
+                    },
+                    {
+                        "titulo": "Análisis y Evaluaciones de Lesiones Deportivas"
+                    },
+                    {
+                        "titulo": "Factores de riesgo y prevención de Lesiones Deportivas"
+                    },
+                    {
+                        "titulo": "Técnicas avanzadas de terapia Física en el deporte I"
+                    },
+                    {
+                        "titulo": "Intervención aguda en la Lesión Deportiva"
+                    },
+                    {
+                        "titulo": "Metodología de la Investigación"
+                    }
+                ]
+            },
+            {
+                "titulo": "2do Semestre",
+                "materias": [
+                    {
+                        "titulo": "Métodos de Entrenamiento para la recuperación Funcional"
+                    },
+                    {
+                        "titulo": "Técnicas avanzadas de terapia Física en el deporte II"
+                    },
+                    {
+                        "titulo": "Práctica Clínica"
+                    },
+                    {
+                        "titulo": "Proyecti Final de Investigación"
+                    }
+                ]
+            }
+        ]
+    }
+}

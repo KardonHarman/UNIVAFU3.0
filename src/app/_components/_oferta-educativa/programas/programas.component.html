@@ -1,0 +1,64 @@
+<div class="programas-wrapper">
+  <div class="programas-item programas-reverse" [@leftAnimation]="secc1State" #secc1>
+    <div [ngStyle]="{'background-image': 'url('+_uvfService.programasData.urlImg1+')'}" class="programas-img-opts"></div>
+    <div class="programas-info">
+      <div>
+        <div class="line programas-line"></div>
+        <h1>{{_uvfService.programasData.titulo1}}</h1>
+        <p>{{_uvfService.programasData.desc1}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="programas-item" [@rightAnimation]="secc2State" #secc2>
+    <div class="programas-info" [class.programas-info-over]="_uvfService.programasData.over">
+      <div [class.programas-info-over-item]="_uvfService.programasData.over">
+        <div class="line programas-line"></div>
+        <h1>{{_uvfService.programasData.titulo2}}</h1>
+        <h2>{{_uvfService.programasData.subTitulo2}}</h2>
+        <p>{{_uvfService.programasData.desc2}}</p>
+        <ul class="programas-list">
+          <li *ngFor="let list of _uvfService.programasData.lista2">
+            <p>{{list.line}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div [ngStyle]="{'background-image': 'url('+_uvfService.programasData.urlImg2+')'}"
+      class="programas-item programas-img-opts"></div>
+  </div>
+  <div class="programas-item programas-reverse" [@leftAnimation]="secc3State" #secc3>
+    <div [ngStyle]="{'background-image': 'url('+_uvfService.programasData.urlImg3+')'}"
+      class="programas-item programas-img-opts"></div>
+    <div class="programas-info">
+      <div>
+        <div class="line programas-line"></div>
+        <h1>{{_uvfService.programasData.titulo3}}</h1>
+        <p>{{_uvfService.programasData.desc3}}</p>
+        <ul class="programas-list">
+          <li *ngFor="let list of _uvfService.programasData.lista3">
+            <p>{{list.line}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mapa-wrapper">
+
+  <mat-accordion>
+
+    <mat-expansion-panel *ngFor="let semestre of _uvfService.programasData.semestres">
+      <mat-expansion-panel-header>
+        <mat-panel-title>{{semestre.titulo}}</mat-panel-title>
+      </mat-expansion-panel-header>
+      <ul>
+        <li *ngFor="let materia of semestre.materias">
+          <p>{{materia.titulo}}</p>
+        </li>
+      </ul>
+    </mat-expansion-panel>
+
+  </mat-accordion>
+
+</div>

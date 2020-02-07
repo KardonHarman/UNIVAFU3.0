@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>{{dialogData.noticiaData.usuario}}</h1>
+<h2 mat-dialog-title>{{dialogData.noticiaData.tituloNoticia}}</h2>
+
+<mat-dialog-content>
+  <mat-spinner #spinner></mat-spinner>
+  <div class="contenedor">
+    <ol class="indicators">
+      <li *ngFor="let indicador of dialogData.noticiaData.carousel; index as i" [ngClass]="{'indicadores' : true, 'active' : i == 0}"></li>
+    </ol>
+    <div class="carouselWrap" appCarousel [totalImgs]="dialogData.noticiaData.carousel.length" [spinner]="spinner">
+      <div class="slide" *ngFor="let img of dialogData.noticiaData.carousel" class="parallax">
+        <img [src]="img.urlImg" alt="" class="parallaxImg" draggable="false">
+      </div>
+    </div>
+  </div>
+  <p *ngFor="let noticiaTexto of dialogData.noticiaData.noticiaTexto">{{noticiaTexto.parrafo}}</p>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close tabindex="-1">Cerrar</button>
+</mat-dialog-actions>

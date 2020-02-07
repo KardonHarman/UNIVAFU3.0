@@ -1,0 +1,122 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$mat-blue: (
+    50 : #e8f2fa,
+    100 : #c5dff2,
+    200 : #9ecaea,
+    300 : #77b5e1,
+    400 : #5aa5da,
+    500 : #3d95d4,
+    600 : #378dcf,
+    700 : #2f82c9,
+    800 : #2778c3,
+    900 : #1a67b9,
+    A100 : #eef6ff,
+    A200 : #bbdaff,
+    A400 : #88beff,
+    A700 : #6eb0ff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$mat-orange: (
+    50 : #faf1e4,
+    100 : #f4dcbb,
+    200 : #ecc58d,
+    300 : #e4ad5f,
+    400 : #df9c3d,
+    500 : #d98a1b,
+    600 : #d58218,
+    700 : #cf7714,
+    800 : #ca6d10,
+    900 : #c05a08,
+    A100 : #fff3eb,
+    A200 : #ffd4b8,
+    A400 : #ffb585,
+    A700 : #ffa66b,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$uvf-primary: mat-palette($mat-blue);
+$uvf-accent: mat-palette($mat-orange);
+
+$uvf-theme: mat-light-theme($uvf-primary, $uvf-accent);
+@include angular-material-theme($uvf-theme);
+
+.white-theme {
+    
+    $mat-white: (
+        50 : #ffffff,
+        100 : #ffffff,
+        200 : #ffffff,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #ffffff,
+        A200 : #ffffff,
+        A400 : #ffffff,
+        A700 : #ffffff,
+        contrast: (
+            50 : #000000,
+            100 : #000000,
+            200 : #000000,
+            300 : #000000,
+            400 : #000000,
+            500 : #000000,
+            600 : #000000,
+            700 : #000000,
+            800 : #000000,
+            900 : #000000,
+            A100 : #000000,
+            A200 : #000000,
+            A400 : #000000,
+            A700 : #000000,
+        )
+    );
+
+    $white-primary: mat-palette($mat-white);
+    $white-accent: mat-palette($mat-indigo);
+    $white-theme: mat-light-theme($white-primary, $white-accent);
+    @include angular-material-theme($white-theme);
+
+}
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Lato, Roboto'
+);
+
+@include angular-material-typography($custom-typography);

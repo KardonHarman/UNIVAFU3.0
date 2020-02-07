@@ -1,0 +1,66 @@
+<div class="abi-wrapper">
+  <img class="abi-image-opts" src="http://univafu.edu.mx/assetsWebsite/images/contacto/contacto_portada.jpg" alt="UNIVAFU-idiomas">
+  <div class="abi-centrar">
+    <div class="line abi-info-line contacto-line"></div>
+    <h1>CONTACTO</h1>
+    <p>Ponte en contacto con uno de nuestros asesores para conocer más acerca de nuestros programas académicos</p>
+  </div>
+</div>
+
+<div class="contacto-wrapper">
+  <h3 class="contacto-center-txt elige-txt">Elige con quien quieres ponerte en contacto.</h3>
+  <div class="buttons-wrapper">
+    <button mat-raised-button *ngFor="let contacto of contactos" class="contacto-button-card" (click)="onContactoSelected(contacto.value)">
+      <img [src]="contacto.urlLogo" class="logo-button">
+    </button>
+  </div>
+</div>
+
+<div class="contacto-form-wrapper">
+  <div class="contacto-info-container">
+    <div class="contacto-flex-box">
+      <img class="contacto-logo" [src]="contactoSelected.urlLogo" alt="UNIVAFU universidad">
+      <ul class="contacto-info-contacto">
+        <li *ngFor="let line of contactoSelected.direccion">{{line.desc}}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="contacto-form-container white-theme mat-elevation-z6" [ngStyle]="{'background' : contactoSelected.color}" #smooth2>
+    <div class="alternate-theme">
+      <div class="ponte-contacto">
+        <h2 class="contacto-center-txt">Ponte en contacto</h2>
+        <p>Nos gustaría recibir tus dudas y comentarios, en breve uno de nuestros asesores se pondrá en contacto.</p>
+      </div>
+      <form [formGroup]="contactoForm" (ngSubmit)="sendInfo()" #fg="ngForm">
+        <mat-form-field color="primary">
+          <input type="text" #nombreInput matInput placeholder="Nombre y Apellido" formControlName="nombre" autocomplete="off" required>
+          <button mat-button *ngIf="contactoForm.controls['nombre'].value" matSuffix mat-icon-button aria-label="Clear" (click)="contactoForm.controls['nombre'].reset()">
+            <mat-icon>close</mat-icon>
+          </button>
+          <mat-error *ngIf="contactoForm.controls['nombre'].invalid">{{getErrorMessage('nombre')}}</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <input type="text" matInput placeholder="Teléfono" formControlName="telefono" autocomplete="off" required>
+          <button mat-button *ngIf="contactoForm.controls['telefono'].value" matSuffix mat-icon-button aria-label="Clear" (click)="contactoForm.controls['telefono'].reset()">
+            <mat-icon>close</mat-icon>
+          </button>
+          <mat-error *ngIf="contactoForm.controls['telefono'].invalid">{{getErrorMessage('telefono')}}</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <input type="email" matInput placeholder="E-mail" formControlName="email" autocomplete="off" required>
+          <button mat-button *ngIf="contactoForm.controls['email'].value" matSuffix mat-icon-button aria-label="Clear" (click)="contactoForm.controls['email'].reset()">
+            <mat-icon>close</mat-icon>
+          </button>
+          <mat-error *ngIf="contactoForm.controls['email'].invalid">{{getErrorMessage('email')}}</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <textarea matInput placeholder="Mensaje" matTextareaAutosize matAutosizeMinRows="2" matAutosizeMaxRows="4" formControlName="mensaje"
+            autocomplete="off"></textarea>
+        </mat-form-field>
+        <button type="submit" mat-stroked-button class="white-stroked-button">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

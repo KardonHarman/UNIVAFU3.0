@@ -1,0 +1,87 @@
+.mat-progress-spinner {
+    margin: auto;
+}
+
+/*carousel css*/
+.contenedor { 
+    height: auto; 
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.indicadores ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+.indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px 2px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0px 2px;
+    background-color: #fff;
+}
+
+.carouselWrap {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+
+.slide {
+    overflow: hidden;
+    float: left;
+    height: auto;
+    width: 100%;
+    display: none;
+}
+
+.showSlide {
+    display: block;
+}
+  
+.animate {
+    transition: transform 0.5s;
+}
+
+.animateSlow {
+    transition: transform 1s;
+}
+
+.parallax {
+    position: relative;
+    z-index: 0;
+}
+  
+.parallaxImg {
+    object-fit: contain;
+    max-height:  28em;
+    width: 100%;
+    cursor: move;
+}
+/*carousel css*/

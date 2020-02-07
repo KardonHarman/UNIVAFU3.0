@@ -1,0 +1,173 @@
+/* You can add global styles to this file, and also import other style files */
+
+body, html {
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'Roboto', sans-serif;
+}
+
+.line {
+    border-bottom: 10px solid #D98A1B;
+    width: 80px;
+    /* margin: auto; */
+}
+
+.gwb-container {
+    padding: 16px;
+    background: #3d95d4;
+    color: #fff;
+    /* margin: 16px 0; */
+}
+
+.gwb-line {
+    border-bottom-color: #fff;
+    margin: auto;
+}
+
+.gwb-box1-title {
+    text-align: center;
+}
+
+.abi-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.abi-image-opts {
+    width: 100%;
+    height: 100%;
+    background-color: #E3F2FD;
+    filter: brightness(70%);
+    object-fit: cover;
+}
+
+.abi-centrar {
+    position: absolute;
+    color: #fff;
+    padding: 0 16px;
+    max-width: 800px;
+}
+
+.abi-centrar > h1 {
+    text-align: center;
+}
+
+.abi-info-line {
+    margin: auto;
+}
+
+.wrapper-mvp {
+    padding: 16px;
+}
+
+@media only screen and (min-width: 600px) { 
+
+    .gwb-wrapper {
+        box-sizing: border-box;
+        padding: 16px;
+    }
+
+    .mvp-box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mvp-box2 > div {
+        width: 400px;
+    }
+
+}
+
+@media only screen and (min-width: 900px) { 
+    .gwb-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        /* margin: 80px 0; */
+        background: #fff;
+    }
+
+    .gwb-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        background: #3d95d4;
+        min-height: 310px;
+        max-height: 310px;
+        z-index: 2;
+    }
+
+    .gwb-box1, .gwb-box2 {
+        position: relative;
+        width: 100%;
+    }
+
+    .gwb-box1 > h1 {
+        font-size: 3em;
+    }
+
+    .gwb-box2 > p {
+        font-size: 1.2em;
+    }
+
+    .gwb-bg {
+        width: 100%;
+        height: 200px;
+        background: #f4f4f4;
+        position: absolute;
+        z-index: 0;
+        top: 73px;
+    }
+
+    .gwb-box1-title {
+        text-align: right;
+        margin: 0.67em;
+    }
+
+    .gwb-line {
+        position: absolute;
+        right: 42px;
+    }
+
+    .abi-centrar > h1 {
+        font-size: 3em;
+    }
+
+    .abi-centrar > p {
+        font-size: 1.3em;
+    }
+
+    .wrapper-mvp {
+        padding: 80px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .mvp-box1 > img {
+        max-height: 30em;
+        width: 100%;
+        background-color: #E3F2FD;
+    }
+
+    .mvp-box2 {
+        width: 100%;
+    }
+
+    .mvp-box2 > div {
+        box-sizing: border-box;
+        padding-left: 22px;
+        width: 600px;
+    }
+
+    .mvp-box2 p {
+        font-size: 1.2em;
+    }
+}

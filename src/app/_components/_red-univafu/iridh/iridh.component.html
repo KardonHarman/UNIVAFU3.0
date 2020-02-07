@@ -1,0 +1,66 @@
+<div class="abi-wrapper">
+  <img class="abi-image-opts" src="http://univafu.edu.mx/assetsWebsite/images/red-univafu/iridh/iridh_portada.jpg" alt="instituto rehabilitacion UNIVAFU">
+  <div class="abi-centrar">
+    <div class="line abi-info-line iridh-line"></div>
+    <h1>IRIDH</h1>
+    <p class="iridh-center-txt">Instituto de Rehabilitación Integral y Desarrollo Humano</p>
+  </div>
+</div>
+
+<div class="iridh-desc">
+  <div>
+    <img class="iridh-logo" src="http://univafu.edu.mx/assetsWebsite/logos/iridh.png" alt="iridh instituto de rehabilitacion integral y desarrollo humano">
+    <p>Nos especializamos en el servicio de rehabilitación física atendiendo diversas patologías, además, de asesoría nutricional,
+      asesorías psicológicas y terapia de audición y lenguaje. Nuestro objetivo principal, es lograr una permanente mejora
+      en nuestras actividades a fin de dar un servicio de calidad para nuestros pacientes.</p>
+  </div>
+</div>
+
+<div class="wrapper-mvp" style="padding-top: 0;">
+  <div *ngIf="_uvfService.mobileQuery.matches" class="mvp-box1">
+    <img src="http://univafu.edu.mx/assetsWebsite/images/red-univafu/iridh/iridh_1.jpg" alt="instituto de rehabilitacion">
+  </div>
+  <div class="mvp-box2 iridh-box-justify" #animation>
+    <div class="iridh-box">
+      <div class="line mvp-line iridh-line" [@barAnimation]="animationState"></div>
+      <h2>MISIÓN</h2>
+      <p class="iridh-mvp-box2-p">Somos agentes de cambio en la formación de recurso humano y en la contribución a la rehabilitación integral, la adopción
+        del cuidado de la salud y el bienestar físico como estilo de vida de nuestra comunidad, de una manera inclusiva y
+        con calidez humana.</p>
+    </div>
+    <div class="iridh-box">
+      <div class="line mvp-line iridh-line" [@barAnimation]="animationState"></div>
+      <h2>VISIÓN</h2>
+      <p class="iridh-mvp-box2-p">Ser líderes en la región Noroeste en el mejoramiento de la salud integral de las personas, en el ámbito de la prevención
+        y rehabilitación física, favoreciendo su desempeño y calidad de vida.</p>
+    </div>
+  </div>
+</div>
+
+<div class="gwb-container iridh-gwb-container">
+  <div class="gwb-bg"></div>
+  <div class="gwb-wrapper iridh-gwb" [class.mat-elevation-z6]="_uvfService.mobileQuery.matches">
+    <div class="gwb-box1">
+      <div class="line gwb-line iridh-line-w"></div>
+      <h1 class="gwb-box1-title iridh-center-txt">NUESTROS <br *ngIf="_uvfService.mobileQuery.matches"> SERVICIOS</h1>
+    </div>
+    <div class="gwb-box2 iridh-gwb-box2">
+      <ul style="margin: 0">
+        <li>
+          <p>Terapia de Rehabilitación Física</p>
+        </li>
+        <li>
+          <p>Terapia de Audición y Lenguaje</p>
+        </li>
+        <li>
+          <p>Asesorías Nutricionales</p>
+        </li>
+        <li>
+          <p>Asesorías Psicológicas</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

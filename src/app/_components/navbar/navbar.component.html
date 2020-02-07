@@ -1,0 +1,48 @@
+<mat-toolbar [class.mat-elevation-z4]="scrollTop > 0">
+
+    <button mat-icon-button *ngIf="!_uvfService.mobileQuery.matches" class="white-theme" (click)="_uvfService.sidenav.open()">
+        <mat-icon color="primary">menu</mat-icon>
+    </button>
+
+    <span class="navbar-space" *ngIf="!_uvfService.mobileQuery.matches"></span>
+
+    <img class="navbar-logo" src="../../../assets/assets/logos/univafu_blanco.png" alt="UNIVAFU">
+
+
+    <span class="navbar-space" *ngIf="_uvfService.mobileQuery.matches"></span>
+
+    <nav mat-tab-nav-bar *ngIf="_uvfService.mobileQuery.matches" color="accent">
+
+        <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.path" routerLinkActive #rla="routerLinkActive" [routerLinkActiveOptions]="{exact:true}"
+            [active]="rla.isActive">
+            {{link.label}}
+        </a>
+
+        <a mat-tab-link [active]="_uvfService.OEInkBarActive" [matMenuTriggerFor]="OEMenu" (menuOpened)="onMenuOpened('oe')" (menuClosed)="onMenuClosed('oe')">Oferta Educativa
+            <mat-icon [@animateNavArrows]="naOEState">expand_more</mat-icon>
+        </a>
+        <a mat-tab-link [active]="_uvfService.RUInkBarActive" [matMenuTriggerFor]="RedMenu" (menuOpened)="onMenuOpened('ru')" (menuClosed)="onMenuClosed('ru')">Red UNIVAFU
+            <mat-icon [@animateNavArrows]="naRedState">expand_more</mat-icon>
+        </a>
+        <a mat-tab-link routerLink="contacto" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+            Contacto
+        </a>
+    </nav>
+
+</mat-toolbar>
+
+<!-- mat-menus -->
+<mat-menu #OEMenu="matMenu" [overlapTrigger]="false">
+    <a mat-menu-item routerLink="oferta-educativa/licenciaturas" routerLinkActive="active">Licenciaturas</a>
+    <a mat-menu-item routerLink="oferta-educativa/posgrados" routerLinkActive="active">Posgrados</a>
+    <a mat-menu-item routerLink="oferta-educativa/educacion-continua" routerLinkActive="active">Educación Continua</a>
+    <a mat-menu-item href="https://c1-univafu.algebraix.com/bin/g/enrollments/default/" target="blank" style="padding-right: 37px;">Inscripciones en línea</a>
+</mat-menu>
+
+<mat-menu #RedMenu="matMenu" [overlapTrigger]="false">
+    <a mat-menu-item routerLink="red-univafu/iiu" routerLinkActive="active">IIU</a>
+    <a mat-menu-item routerLink="red-univafu/fundacion" routerLinkActive="active">Fundación</a>
+    <a mat-menu-item routerLink="red-univafu/iridh" routerLinkActive="active">IRIDH</a>
+    <a mat-menu-item routerLink="red-univafu/innovagain" routerLinkActive="active">Innovagain</a>
+    <a mat-menu-item style="padding-right: 79px;" (click)="onAlgebraix()">Algebraix</a>
+</mat-menu>

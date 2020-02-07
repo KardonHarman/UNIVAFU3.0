@@ -1,0 +1,212 @@
+<!-- <div class="video-wrapper">
+  <iframe id="ytplayer" type="text/html" width="100%" height="100%" src="http://www.youtube.com/embed/w1vDFrNrNyQ?autoplay=1&controls=0&disablekb=1&fs=0&loop=1&playlist=w1vDFrNrNyQ&modestbranding=1&rel=0&showinfo=0"
+    frameborder="0">
+  </iframe>
+  <div class="sentido-container">
+    <div class="line sentido-line"></div>
+    <h1>DALE SENTIDO A TU VIDA</h1>
+    <p>Impulsamos tu talento a través de planes de estudio especializados y orientados a la formación integral, acércate a nosotros
+      y ¡Dale Sentido a tu Vida!
+    </p>
+  </div>
+</div> -->
+<div class="abi-wrapper">
+  <img class="abi-image-opts" src="../../../assets/assets/images/home/index_home.jpg"
+    alt="UNIVAFU-idiomas">
+  <div class="abi-centrar">
+    <div class="line abi-info-line fundacion-line"></div>
+    <h1>EL FUTURO NO PUEDE ESPERAR</h1>
+    <button mat-stroked-button class="orange-stroked-button" (click)="_router.navigate(['/oferta-educativa/licenciaturas'])">Informate</button>
+  </div>
+</div>
+<div class="oferta-educativa-wrapper">
+  <div class="oec-info-wrapper">
+    <div class="oec-box1">
+      <div class="line oec-line"></div>
+      <h1> OFERTA
+        <br *ngIf="_uvfService.mobileQuery.matches"> EDUCATIVA</h1>
+    </div>
+    <!-- <div class="oec-box2">
+      <p>Conoce nuestros programas académicos diseñados con una visión integral, donde podrás poner en práctica tus conocimientos
+        y habilidades desde el primer día de clases.</p>
+    </div> -->
+  </div>
+  <div class="oec">
+    <div class="oec-licenciaturas" (mouseenter)="onPropuestaEnter(lic, licImg)" (mouseleave)="onPropuestaLeave(lic, licImg)"
+      (click)="_router.navigate(['/oferta-educativa/licenciaturas'])">
+      <div #licImg>
+        <img src="../../../assets/assets/images/home/index_licenciaturas.jpg" alt="UNIVAFU LICENCIATURAS" class="oec-img">
+      </div>
+      <div class="oec-flex" #lic>
+        <div *ngIf="_uvfService.mobileQuery.matches" class="line oec-line2"></div>
+        <div class="oec-titles">
+          <h2>LICENCIATURAS</h2>
+        </div>
+      </div>
+    </div>
+    <div class="oec-posgrados" (mouseenter)="onPropuestaEnter(pos, posImg)" (mouseleave)="onPropuestaLeave(pos, posImg)" (click)="_router.navigate(['/oferta-educativa/posgrados'])">
+      <div #posImg>
+        <img src="../../../assets/assets/images/home/index_posgrado.jpg" alt="UNIVAFU POSGRADOS" class="oec-img">
+      </div>
+      <div class="oec-flex" #pos>
+        <div *ngIf="_uvfService.mobileQuery.matches" class="line oec-line2"></div>
+        <div class="oec-titles">
+          <h2>POSGRADOS</h2>
+        </div>
+      </div>
+    </div>
+    <div class="oec-continua" (mouseenter)="onPropuestaEnter(edu, eduImg)" (mouseleave)="onPropuestaLeave(edu, eduImg)" (click)="_router.navigate(['/oferta-educativa/educacion-continua'])">
+      <div #eduImg>
+        <img src="../../../assets/assets/images/home/index_educacion_continua.jpg" alt="UNIVAFU EDUCACIÓN CONTINUA"
+          class="oec-img">
+      </div>
+      <div class="oec-flex" #edu>
+        <div *ngIf="_uvfService.mobileQuery.matches" class="line oec-line2"></div>
+        <div class="oec-titles">
+          <h2>EDUCACIÓN CONTINUA</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="gwb-container">
+  <div class="gwb-bg"></div>
+  <div class="gwb-wrapper" [class.mat-elevation-z4]="_uvfService.mobileQuery.matches">
+    <div class="gwb-box1">
+      <div class="line gwb-line"></div>
+      <h1 class="gwb-box1-title">ESTUDIA CON
+        <br *ngIf="_uvfService.mobileQuery.matches"> NOSOTROS</h1>
+    </div>
+    <div class="gwb-box2">
+      <p class="home-gwb-box2-desc">UNIVAFU Universidad, te ofrece una experiencia única al cursar clases con maestros internacionales y de reconocida
+        experiencia profesional, lo que te ayudará a interactuar más eficazmente en el ambiente globalizado en que vivimos.</p>
+      <br>
+      <button mat-stroked-button class="white-stroked-button" (click)="_router.navigate(['/oferta-educativa/licenciaturas'])">Más Información</button>
+    </div>
+  </div>
+</div> -->
+
+<div class="serv">
+
+  <div class="serv-flex-wrapper" #iiu>
+    <div *ngIf="_uvfService.mobileQuery.matches" class="serv-iiu serv-img"></div>
+    <div class="serv-descs" [@staggerAnim]="staggerStateIiu">
+      <h2 class="staggerItem">ESTUDIA CON NOSOTROS</h2>
+      <!-- <img src="../../../assets/assets/images/logos/iiu.png" alt="iiu instituto de idiomas UNIVAFU" class="serv-logo staggerItem"> -->
+      <p style="margin-top: 60px;" class="staggerItem">UNIVAFU UNIVERSIDAD es una institución orientada a la calidad y los valores humanos, basada en la especialización de nuestros planes de estudio, donde a través de proyectos, impulsamos el emprendimiento e innovación.</p>
+      <br>
+      <!-- <button mat-stroked-button class="white-stroked-button staggerItem" (mouseenter)="onServsEnter(iiu)" (mouseleave)="onServsLeave(iiu)"
+        (click)="_router.navigate(['/red-univafu/iiu'])">Más Información</button> -->
+    </div>
+  </div>
+
+  <div class="serv-flex-wrapper" #fundacion>
+    <div class="serv-descs" [@staggerAnim]="staggerStateFundacion">
+      <!-- <img src="../../../assets/assets/logos/" alt="Fundacion UNIVAFU" class="serv-logo staggerItem"> -->
+      <h2 class="staggerItem">DOCENTES ESPECIALIZADOS NACIONALES Y EXTRANJEROS
+      </h2>
+      <p style="margin-top: 30px;" class="staggerItem">Cercanos, dedicados, comprometidos y enfocados para apoyarte en el desarrollo de tus competencias profesionales, preparándote para el futuro.</p>
+      <br>
+      <!-- <button mat-stroked-button class="white-stroked-button staggerItem" (mouseenter)="onServsEnter(fundacion)" (mouseleave)="onServsLeave(fundacion)"
+        (click)="_router.navigate(['/red-univafu/fundacion'])">Más Información</button> -->
+    </div>
+    <div *ngIf="_uvfService.mobileQuery.matches" class="serv-fundacion serv-img"></div>
+  </div>
+
+  <div class="serv-flex-wrapper" #innova>
+    <div *ngIf="_uvfService.mobileQuery.matches" class="serv-innovagain serv-img"></div>
+    <div class="serv-descs" [@staggerAnim]="staggerStateInnovagain">
+      <h2 class="staggerItem">NUESTRO CAMPUS
+      </h2>
+      <!-- <img src="../../../assets/assets/images/logos/innovagain.png" alt="Innovagain" class="serv-logo staggerItem"> -->
+      <p class="staggerItem">En UNIVAFU UNIVERSIDAD cumplimos 21 años de darle sentido a tu vida, siendo referentes en la formación profesional de calidad, reflejada a través de nuestros egresados y todos quienes integran la familia castora.</p>
+      <br>
+      <!-- <button mat-stroked-button class="white-stroked-button staggerItem" (mouseenter)="onServsEnter(innova)" (mouseleave)="onServsLeave(innova)"
+        (click)="_router.navigate(['/red-univafu/innovagain'])">Más Información</button> -->
+    </div>
+  </div>
+
+
+</div>
+
+<div class="conoce">
+  <div class="oec-box1">
+    <h1>CONOCE UNIVAFU</h1>
+  </div>
+  <div class="conoce-header">
+    <p>Buscamos impulsar tu creatividad y orientarla hacia la investigación y el emprendimiento, y así, desarrolles conocimientos, habilidades y actitudes, que fortalezcan tu perfil profesional y humano.</p>
+    <br>
+  </div>
+  <button mat-stroked-button class="blue-stroked-button" (click)="_router.navigate(['/contacto'])">AGENDA TU CITA</button>
+</div>
+
+<div class="red-wrapper">
+  <img src="../../../assets/assets/images/home/index_red.jpg" alt="RED UNIVAFU" class="red-img">
+  <div class="red-info">
+    <h1>RED UNIVAFU</h1>
+    <div class="line blue-line"></div>
+    <div style="margin-top: 50px;">
+      <button mat-stroked-button class="white-stroked-button" (click)="_router.navigate(['/red-univafu'])">Más Información</button>
+    </div>
+  </div>
+</div>
+
+<div class="servicios">
+  <div class="servicios-header">
+    <h2 style="text-align: center;">UNIVAFU Universidad, te ofrece una experiencia única al cursar clases con maestros internacionales y de reconocida experiencia profesional, lo que te ayudará a interactuar más eficazmente en el ambiente globalizado en que vivimos.</h2>
+  </div>
+  <div class="servicios-posts">
+    <mat-card class="my-card mat-card">
+      <img src="../../../assets/assets/images/home/index_iiu.jpg" alt="IDIOMAS" class="serv-post mat-card-image">
+    <mat-card-actions>
+      <mat-card-title>IDIOMAS</mat-card-title>
+      <div class="line blue-line" style="margin-bottom: 5%;"></div>
+      <button mat-stroked-button (click)="_router.navigate(['/red-univafu/iiu'])">Saber más</button>
+    </mat-card-actions>
+  </mat-card>
+    <mat-card class="my-card mat-card">
+      <img src="../../../assets/assets/images/home/index_fundacion.jpg" alt="FUNDACION" class="serv-post mat-card-image">
+    <mat-card-actions>
+      <mat-card-title>FUNDACION</mat-card-title>
+      <div class="line blue-line" style="margin-bottom: 5%;"></div>
+      <button mat-stroked-button (click)="_router.navigate(['/red-univafu/iiu'])">Saber más</button>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card class="my-card mat-card">
+    <img src="../../../assets/assets/images/home/index_iridh.jpg" alt="CLINICA" class="serv-post mat-card-image">
+  <mat-card-actions>
+    <mat-card-title>CLINICA</mat-card-title>
+    <div class="line blue-line" style="margin-bottom: 5%;"></div>
+    <button mat-stroked-button (click)="_router.navigate(['/red-univafu/iiu'])">Saber más</button>
+  </mat-card-actions>
+  </mat-card>
+  </div>
+</div>
+
+<div class="noticias">
+  <div class="noticias-header">
+    <div class="line noticias-line"></div>
+    <h1>NOTICIAS Y EVENTOS</h1>
+  </div>
+
+  <div class="noticias-posts">
+
+    <mat-card class="my-card" *ngFor="let noticia of noticias">
+      <!-- <mat-card-header> -->
+      <mat-card-title>{{noticia.usuario}}</mat-card-title>
+      <!-- </mat-card-header> -->
+      <img mar-card-image class="card-img-opts" [src]="noticia.img" alt="noticias">
+      <mat-card-content>
+        <mat-card-title>{{noticia.tituloNoticia}}</mat-card-title>
+        <p class="card-txt">{{noticia.noticiaTexto[0].parrafo}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button (click)="openNoticia(noticia)">Leer Más</button>
+      </mat-card-actions>
+    </mat-card>
+
+  </div>
+</div>
+
+<app-footer></app-footer>

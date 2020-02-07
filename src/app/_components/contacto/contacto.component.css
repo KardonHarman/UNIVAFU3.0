@@ -1,0 +1,124 @@
+.contacto-wrapper {
+    padding: 16px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contacto-center-txt {
+    text-align: center;
+}
+
+.elige-txt {
+    color: rgba(0,0,0,0.7);
+}
+
+.logo-button {
+    width: 8em;
+    height: auto;
+}
+
+.contacto-button-card {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.contacto-logo {
+    width: 10em;
+    height: auto;
+    margin: 16px;
+}
+
+.contacto-info-container {
+    background: #f4f4f4;
+}
+
+.contacto-flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto-info-contacto {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.contacto-form-container {
+    color: #fff;
+    padding: 16px;
+    transition: background-color 2s;
+}
+
+.contacto-info-contacto li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: rgba(0,0,0,0.7);
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.white-stroked-button {
+    font-size: 1.1em;
+    border-width: 2px;
+    border-radius: 18px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 700px) {
+    .contacto-form-wrapper {
+        padding: 80px 0;
+        position: relative;
+    }
+
+    .contacto-form-container {
+        position: absolute;
+        top: 6px;
+        right: 0;
+        width: 50%;
+        box-sizing: border-box;
+        height: 492px;
+    }
+
+    .contacto-logo {
+        width: 12em;
+    }
+
+    .contacto-info-contacto li {
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+    }
+
+    .contacto-info-container {
+        box-sizing: border-box;
+        height: 342px;
+    }
+
+    .contacto-flex-box {
+        align-items: baseline;
+        margin-left: 8%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .elige-txt {
+        font-size: 2em;
+    }
+
+    .logo-button {
+        width: 12em;
+    }
+
+    .ponte-contacto > p {
+        font-size: 1.1em;
+    }
+}

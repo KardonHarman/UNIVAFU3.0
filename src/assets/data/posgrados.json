@@ -1,0 +1,221 @@
+{
+    "headers": {
+        "imgUrl": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/posgrados/Portada.jpg",
+        "title": "POSGRADOS",
+        "title2": "PROGRAMAS",
+        "title3": " DE POSGRADO",
+        "desc": "Te invitamos a conocer los programas ejecutivos que UNIVAFU Universidad tiene para tí."
+    },
+    "links": [
+        {
+            "label": "Maestría en Metodología del Entrenamiento Deportivo",
+            "url": "mmed"
+        },
+        {
+            "label": "Maestría en Educación",
+            "url": "medu"
+        }
+    ],
+    "mmed": {
+        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/posgrados/mmed/1.jpg",
+        "titulo1": "Maestría en Metodología del Entrenamiento Deportivo",
+        "desc1": "Es un programa que forma profesionales con plena conciencia de los procesos que rigen el entrenamiento deportivo de alto rendimiento, partiendo de una visión científico-tecnológica, permitiéndoles ser un ente facilitador del cambio en los deportistas e instituciones del sector público o privado.",
+        "titulo2": "Perfil de egreso",
+        "subTitulo2": "Serás capaz de:",
+        "desc2": "",
+        "over": true,
+        "lista2": [
+            {
+                "line": "Elaboración de planes de trabajo, dirigir y controlar su ejecución y evaluar  con un enfoque sistemático."
+            },
+            {
+                "line": "Diseñar y dirigir investigaciones encaminadas a la solución de problemas científicos relacionados con el rendimiento deportivo, integrando y sistematizando en el proceso de preparación del deportista, los conocimientos de las ciencias aplicadas."
+            },
+            {
+                "line": "Elevado nivel de dominio teórico y metodológico con carácter interdisciplinario en la innovación y gestión de la calidad del desarrollo de la actividad física y el deporte  en general."
+            },
+            {
+                "line": "Habilidad para la integración, organización y/o dirección de equipos de investigación, con un carácter innovador."
+            },
+            {
+                "line": "Disposición para diagnosticar, diseñar y proponer respuestas a la problemática en el área de la metodología del entrenamiento deportivo."
+            }
+        ],
+        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/posgrados/mmed/2.jpg",
+        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/posgrados/mmed/3.jpg",
+        "titulo3": "Modalidad",
+        "desc3": "El programa se desarrolla en cuatro semestres en modalidad mixta, en sesiones presenciales y virtuales, con el uso de plataforma educativa. Se realizarán estudios de casos y proyectos por asignatura, participando en coloquios, con opción a publicar en revista científica.",
+        "lista3": [],
+        "semestres": [
+            {
+                "titulo": "1er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Novedades Pedagógicas y Didácticas en el Deporte"
+                    },
+                    {
+                        "titulo": "Fisiología y Bioquímica en el Entrenamiento Deportivo"
+                    },
+                    {
+                        "titulo": "Modelos Mecánicos en el Deporte"
+                    },
+                    {
+                        "titulo": "Estadística Aplicada a la Actividad Deportiva"
+                    },
+                    {
+                        "titulo": "Metodología de la Investigación en los Deportes"
+                    }
+                ]
+            },
+            {
+                "titulo": "2do Semestre",
+                "materias": [
+                    {
+                        "titulo": "Psicología para el Rendimiento Deportivo"
+                    },
+                    {
+                        "titulo": "Control Médico del Entrenamiento Deportivo "
+                    },
+                    {
+                        "titulo": "Teoría y Metodología del Entrenamiento Deportivo I"
+                    },
+                    {
+                        "titulo": "Modelación del Proceso de Entrenamiento"
+                    },
+                    {
+                        "titulo": "Seminario de Investigación I"
+                    }
+                ]
+            },
+            {
+                "titulo": "3er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Etapas de Formación del Deportista"
+                    },
+                    {
+                        "titulo": "Nutrición y Rendimiento Deportivo"
+                    },
+                    {
+                        "titulo": "Teoría y Metodología del Entrenamiento Deportivo II"
+                    },
+                    {
+                        "titulo": "Seminario de Investigación II"
+                    }
+                ]
+            },
+            {
+                "titulo": "4to Semestre",
+                "materias": [
+                    {
+                        "titulo": "Higiene y Prevención de Traumas Físicos"
+                    },
+                    {
+                        "titulo": "Gestión y Dirección del Deporte"
+                    },
+                    {
+                        "titulo": "Seminario de Investigación III"
+                    }
+                ]
+            }
+        ]
+    },
+    "medu": {
+        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/posgrados/medu/1.jpg",
+        "titulo1": "Maestría en Educación",
+        "desc1": "Es un programa orientado a la profesionalización, el fortalecimiento y la actualización de la práctica docente, a través del conocimiento, análisis y reflexión de los fundamentos teóricos de la educación, con el fin de diseñar y aplicar acciones innovadoras, para responder a las necesidades de calidad y pertinencia de la educación actual y futura.",
+        "titulo2": "Perfil de egreso",
+        "subTitulo2": "Serás capaz de:",
+        "desc2": "",
+        "over": true,
+        "lista2": [
+            {
+                "line": "Explorar, construir, adecuar, evaluar y mejorar la propia práctica docente, a partir de la reflexión crítica y la autoevaluación, asumiendo la necesidad de actualización y formación continua, en el ejercicio de la educación."
+            },
+            {
+                "line": "Intervención en procesos de gestión educativa, que promuevan la innovación de las instituciones y el desarrollo del talento humano que las conforma."
+            },
+            {
+                "line": "Aplicación de tecnologías de información actuales,  que estratégicamente gestionen los procesos relacionados con la integración de la misma, en diversos entornos del aprendizaje."
+            },
+            {
+                "line": "Aplicar distintas líneas de investigación, enfocadas en la solución de problemáticas de la educación actual, con propuestas de innovación en el proceso educativo."
+            }
+        ],
+        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/posgrados/medu/2.jpg",
+        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/posgrados/medu/3.jpg",
+        "titulo3": "Modalidad",
+        "desc3": "El programa se desarrolla en cuatro semestres en modalidad mixta, en sesiones presenciales y virtuales, con el uso de plataforma educativa. Se realizarán estudios de casos y proyectos por asignatura, participando en coloquios, con opción a publicar en revista científica.",
+        "lista3": [],
+        "semestres": [
+            {
+                "titulo": "1er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Pedagogía"
+                    },
+                    {
+                        "titulo": "Didáctica y Currículum"
+                    },
+                    {
+                        "titulo": "Práctica Docente"
+                    },
+                    {
+                        "titulo": "Metodología de Investigación"
+                    }
+                ]
+            },
+            {
+                "titulo": "2do Semestre",
+                "materias": [
+                    {
+                        "titulo": "Modalidades y Modelos Educativos"
+                    },
+                    {
+                        "titulo": "Métodos y Técnicas Didácticas"
+                    },
+                    {
+                        "titulo": "Tecnologías Digitales en la Educación"
+                    },
+                    {
+                        "titulo": "Abordaje de la Investigación"
+                    }
+                ]
+            },
+            {
+                "titulo": "3er Semestre",
+                "materias": [
+                    {
+                        "titulo": "Estrategias de Enseñanza y Aprendizaje"
+                    },
+                    {
+                        "titulo": "Técnicas y Dinámicas Grupales"
+                    },
+                    {
+                        "titulo": "Innovación Educativa"
+                    },
+                    {
+                        "titulo": "Análisis de Datos de la Investigación"
+                    }
+                ]
+            },
+            {
+                "titulo": "4to Semestre",
+                "materias": [
+                    {
+                        "titulo": "Planeación Didáctica"
+                    },
+                    {
+                        "titulo": "Evaluación del Aprendizaje y la Práctica Educativa"
+                    },
+                    {
+                        "titulo": "Gestión de la Calidad Educativa"
+                    },
+                    {
+                        "titulo": "Síntesis de la Investigación"
+                    }
+                ]
+            }
+        ]
+    }
+}

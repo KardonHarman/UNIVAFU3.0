@@ -1,0 +1,59 @@
+.uvf-sidenav {
+    padding: 16px 0;
+    min-width: 280px;
+    max-width: 320px;;
+}
+
+mat-nav-list {
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}
+
+mat-progress-bar {
+    position: fixed;
+    z-index: 10000;
+}
+
+.wrapper-lvl2 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.list-item-a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 16px !important;
+    outline: none;
+}
+
+.lvl2-icon {
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-out;
+}
+
+.lvl2-icon-active {
+    transform: rotate(180deg);
+}
+
+.lvl2-margin {
+    margin-left: 46px !important;
+}
+
+.active {
+    background-color: rgba(0,0,0,0.09);
+}
+
+.routeContainer {
+    position: relative;
+}
+
+.routeContainer > * {
+    display: block;
+}

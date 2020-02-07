@@ -1,0 +1,64 @@
+<div class="abi-wrapper">
+  <img class="abi-image-opts" src="http://univafu.edu.mx/assetsWebsite/images/red-univafu/fundacion/fundacion_portada.jpg"
+    alt="UNIVAFU-idiomas">
+  <div class="abi-centrar">
+    <div class="line abi-info-line fundacion-line"></div>
+    <h1>FUNDACIÓN UNIVAFU</h1>
+  </div>
+</div>
+
+<div class="fundacion-desc">
+  <div>
+    <img class="fundacion-logo" src="http://univafu.edu.mx/assetsWebsite/logos/fundacion.png" alt="fundacion UNIVAFU">
+    <p>UNIVAFU Universidad para atender la función de Asistencia Social, crea: Fundación UNIVAFU A.C., con el lema
+      <b>“Servir es una Misión Mágica”.</b>
+    </p>
+  </div>
+</div>
+
+<div class="fundacion-ar-wrapper">
+  <div class="fundacion-flex-box1">
+    <div *ngIf="_uvfService.mobileQuery.matches">
+      <img src="http://univafu.edu.mx/assetsWebsite/images/red-univafu/fundacion/fundacion_1.jpg" alt="FUNDACION" class="fundacion-ar-img">
+    </div>
+    <div class="box-info" #animation1>
+      <div>
+        <div class="line fundacion-line fundacion-ar-line" [@barAnimation]="animationState1"></div>
+        <h2>Actividades</h2>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <p>El Juguetón y Ecos del Juguetón</p>
+          </li>
+          <li>
+            <p>Presentaciones teatrales denominadas “A través del tiempo” y “Muestra Cultural”, las cuales promueven y fortalecen
+              nuestra cultura y tradiciones.</p>
+          </li>
+          <li>
+            <p>Presentaciones de la Estudiantina Profr. Adolfo Hernández de la Mora.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="fundacion-flex-box2">
+    <div *ngIf="_uvfService.mobileQuery.matches">
+      <img src="http://univafu.edu.mx/assetsWebsite/images/red-univafu/fundacion/fundacion_2.jpg" alt="FUNDACION" class="fundacion-ar-img">
+    </div>
+    <div class="box-info" #animation2>
+      <div>
+        <div class="line fundacion-line fundacion-ar-line" [@barAnimation]="animationState2"></div>
+        <h2>Reconocimientos</h2>
+      </div>
+      <div>
+        <p>En el año 2015 fuimos galardonados por el Municipio de Ahome, con el Reconocimiento Municipal a las Empresas Comprometidas
+          con la Niñez 2015 por “Derecho a la Recreación”.</p>
+        <p>En el año 2016 fuimos galardonados por el Municipio de Ahome, con el Reconocimiento Municipal a las Empresas Comprometidas
+          con la Niñez 2016 por “Infancia Saludable”.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

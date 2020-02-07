@@ -1,0 +1,61 @@
+<div class="abi-wrapper">
+  <img class="abi-image-opts" src="http://univafu.edu.mx/assetsWebsite/images/univafu/univafu_portada.jpg" alt="UNIVAFU">
+  <div class="abi-centrar">
+    <div class="line abi-info-line"></div>
+    <h1>UNIVAFU Universidad</h1>
+    <p>Buscamos impulsar tu creatividad y orientarla hacia la investigación, para que desarrolles conocimientos y habilidades
+      que te ayuden a ser una persona autónoma y con poder de decisión.</p>
+  </div>
+</div>
+
+<div class="wrapper-mvp" #mvp>
+  <div class="mvp-box1">
+    <img *ngIf="_uvfService.mobileQuery.matches" src="http://univafu.edu.mx/assetsWebsite/images/univafu/univafu.jpg" alt="UNIVAU">
+  </div>
+  <div class="mvp-box2 uvf-mvp">
+    <div class="uvf-mvp-box">
+      <div class="line mvp-line" [@barAnimation]="animationState"></div>
+      <h2>MISIÓN</h2>
+      <p>Construimos aprendizajes mediante la transformación de la experiencia.</p>
+    </div>
+    <div class="uvf-mvp-box">
+      <div class="line mvp-line" [@barAnimation]="animationState"></div>
+      <h2>VISIÓN</h2>
+      <p>Ser fortaleza en la evolución del conocimiento.</p>
+    </div>
+    <div class="uvf-mvp-box">
+      <div class="line mvp-line" [@barAnimation]="animationState"></div>
+      <h2>PROPÓSITO</h2>
+      <p>Crecemos juntos en tu proyecto de vida.</p>
+    </div>
+  </div>
+</div>
+
+<div class="gwb-container">
+  <div class="gwb-bg"></div>
+  <div class="gwb-wrapper" [class.mat-elevation-z4]="_uvfService.mobileQuery.matches">
+    <div class="gwb-box1">
+      <div class="line gwb-line"></div>
+      <h1 class="gwb-box1-title uvf-gwb-box1-title">NUESTROS
+        <br *ngIf="_uvfService.mobileQuery.matches"> VALORES</h1>
+    </div>
+    <div class="gwb-box2 uvf-center-info">
+      <ul class="gwb-list">
+        <li>
+          <p>Compartimos la pasión por tu futuro.</p>
+        </li>
+        <li>
+          <p>Hacemos de cada experiencia, un aprendizaje consciente.</p>
+        </li>
+        <li>
+          <p>Como familia castores, emprendemos juntos la transformación de tus sueños.</p>
+        </li>
+        <li>
+          <p>Fomentamos la asertividad en nuestra comunicación.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
