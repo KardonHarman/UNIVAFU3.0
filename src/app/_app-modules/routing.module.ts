@@ -14,6 +14,8 @@ const routes: Routes = [
     { path: 'red-univafu/iridh', loadChildren: 'src/app/_components/_red-univafu/iridh/iridh.module#IridhModule', data: { depth: 9 } },
     { path: 'contacto', loadChildren: 'src/app/_components/contacto/contacto.module#ContactoModule', data: { depth: 10 } },
     { path: 'aviso-legal', loadChildren: 'src/app/_components/aviso-legal/aviso-legal.module#AvisoLegalModule', data: { depth: 11 } },
+    { path: 'noticias', loadChildren: 'src/app/_components/_news/news-list/news-list.module#NewsListModule', data: { depth: 12 } },
+    { path: 'noticias/:slug', loadChildren: 'src/app/_components/_news/news-detail/news-detail.module#NewsDetailModule', data: { depth: 13 } },
     { path: '**', loadChildren: 'src/app/_components/page-not-found/page-not-found.module#PageNotFoundModule' }
 ];
 

@@ -14,4 +14,8 @@ export class NewsService {
   getNews() {
     return this.http.get<New>(`${this.urlApi}`);
   }
+
+  getNew(id: string) {
+    return this.http.get<New>(`${this.urlApi}/${id}`)
+  }
 }

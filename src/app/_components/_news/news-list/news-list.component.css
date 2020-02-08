@@ -1,0 +1,75 @@
+/*noticias*/
+.noticias-img {
+    height: auto;
+    width: 100%;
+    display: block;
+    filter: brightness(50%);
+    max-height: 24em;
+    object-fit: cover;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+.noticias-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 20px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.noticias-info {
+    position: absolute;
+    color: #fff;
+}
+
+.noticias-line {
+    margin: auto;
+    border-bottom-color: #fff;
+}
+.noticias-posts {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.example-card {
+    max-width: 400px;
+    margin: 8px 16px;
+  }
+  
+  .example-header-image {
+    background-image: url('../../../../assets/assets/icons/icon_univafu.png');
+    background-size: cover;
+  }
+
+.card-img-opts {
+    width: 100%;
+    height: auto;
+    background-color: #3d95d4;
+}
+
+.card-txt {
+    font-size: 14px;
+    color: rgba(0,0,0,.87);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.mat-card-avatar{
+    border-radius: 0 !important;
+}
+.mat-raised-button .mat-primary{
+    color: #fff !important;
+}
+@media only screen and (min-width: 900px) { 
+
+    .noticias-img {
+        max-height: 18em;
+    }
+
+    .noticias-info > h1 {
+        font-size: 3em;
+    }
+    
+}
