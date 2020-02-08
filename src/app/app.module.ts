@@ -11,13 +11,15 @@ import { UvfService } from './_services/uvf.service';
 import { HttpClientModule } from '../../node_modules/@angular/common/http';
 import { AlgebraixDialogComponent } from './_components/_dialogs/algebraix-dialog/algebraix-dialog.component';
 import { RouteGuardService } from './_services/route-guard.service';
+import { NewsListComponent } from './_components/_news/news-list/news-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    AlgebraixDialogComponent
+    AlgebraixDialogComponent,
+    NewsListComponent
   ],
   imports: [
     BrowserModule,
