@@ -184,28 +184,25 @@
   </div>
 </div>
 
-<div class="noticias">
+<div class="noticias" *ngIf="noticias">
   <div class="noticias-header">
     <div class="line noticias-line"></div>
     <h1>NOTICIAS Y EVENTOS</h1>
   </div>
 
-  <div class="noticias-posts">
-
-    <mat-card class="my-card" *ngFor="let noticia of noticias">
-      <!-- <mat-card-header> -->
-      <mat-card-title>{{noticia.usuario}}</mat-card-title>
-      <!-- </mat-card-header> -->
-      <img mar-card-image class="card-img-opts" [src]="noticia.img" alt="noticias">
+  <div class="noticias-posts" >
+    <div class="" *ngFor="let noticia of noticias | slice:0:3">
+    <mat-card class="my-card" *ngIf="noticia.status">
+      <img mar-card-image class="card-img-opts" [src]="newService.urlApiMedia + noticia.imagePath" alt="noticias">
       <mat-card-content>
-        <mat-card-title>{{noticia.tituloNoticia}}</mat-card-title>
-        <p class="card-txt">{{noticia.noticiaTexto[0].parrafo}}</p>
+        <mat-card-title>{{noticia.title}}</mat-card-title>
+        <p class="card-txt">{{noticia.description}}</p>
       </mat-card-content>
       <mat-card-actions>
-        <button mat-button (click)="openNoticia(noticia)">Leer Más</button>
+        <button mat-button (click)="selectedNew(noticia._id)">Leer Más</button>
       </mat-card-actions>
     </mat-card>
-
+  </div>
   </div>
 </div>
 

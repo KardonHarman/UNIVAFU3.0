@@ -28,7 +28,7 @@ export class NavbarComponent implements OnInit, OnDestroy {
   public navLinks: any = [
     { "path": "", "label": "Inicio" },
     { "path": "univafu", "label": "UNIVAFU" },
-    { "path": "noticias", "label": "NOTICIAS" }
+    { "path": "noticias", "label": "Noticias" }
   ];
 
 

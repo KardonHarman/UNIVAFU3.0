@@ -15,7 +15,8 @@ import {
     MatCheckboxModule,
     MatProgressSpinnerModule,
     MatSidenavModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatGridListModule
 } from '@angular/material';
 import { LayoutModule } from '../../../node_modules/@angular/cdk/layout';
 import { FooterComponent } from '../_components/footer/footer.component';
@@ -48,7 +49,8 @@ import { RouterModule } from '../../../node_modules/@angular/router';
         LayoutModule,
         MatProgressSpinnerModule,
         MatProgressBarModule,
-        MatSidenavModule
+        MatSidenavModule,
+        MatGridListModule
     ],
     exports: [
         FormsModule,
@@ -70,6 +72,7 @@ import { RouterModule } from '../../../node_modules/@angular/router';
         MatProgressSpinnerModule,
         MatProgressBarModule,
         MatSidenavModule,
+        MatGridListModule,
         FooterComponent,
         OfertaHeadersComponent
     ],

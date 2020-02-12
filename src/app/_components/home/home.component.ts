@@ -6,7 +6,8 @@ import { NoticiasDialogComponent } from '../_dialogs/noticias-dialog/noticias-di
 import { Subscription, fromEvent } from '../../../../node_modules/rxjs';
 import { Router } from '../../../../node_modules/@angular/router';
 import { staggerAnim } from '../../_animations/animations';
-
+import { NewsService } from 'src/app/_services/news.service';
+import { New } from '../../models/news'
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -15,7 +16,7 @@ import { staggerAnim } from '../../_animations/animations';
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
-  noticias: any;
+  noticias: New | any[] = [];
   resizeSub: Subscription;
   scrollSub: Subscription;
   public staggerStateIiu: string = "inactive";
@@ -29,12 +30,14 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   constructor(
     public _uvfService: UvfService,
+    public newService : NewsService,
     private dialog: MatDialog,
     private render: Renderer2,
     public _router: Router) { }
 
   ngOnInit() {
-    this.loadNoticias();
+    // this.loadNoticias();
+    this.getNews();
     this.setResizeEvent();
     this.setScrollEvent();
   }
@@ -44,16 +47,32 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.scrollSub.unsubscribe();
   }
 
-  loadNoticias() {
-    this._uvfService.loadNoticiasData().pipe(
-      take(1),
-      map((data: any) => {
-        return data.body.noticias
-      })
-    ).subscribe((data: any) => {
-      this.noticias = data;
-    });
+  getNews(){
+    this.newService.getNews()
+      .subscribe(
+        res =>{
+          this.noticias = res
+        },
+        err => console.log(err)
+      )
   }
+  selectedNew(id: string){
+    this._router.navigate(['/noticias', id])
+  };
+
+  
+
+
+  // loadNoticias() {
+  //   this._uvfService.loadNoticiasData().pipe(
+  //     take(1),
+  //     map((data: any) => {
+  //       return data.body.noticias
+  //     })
+  //   ).subscribe((data: any) => {
+  //     this.noticias = data;
+  //   });
+  // }
 
   openNoticia(noticia: any) {
     let dialogRef: any = this.dialog.open(NoticiasDialogComponent, {

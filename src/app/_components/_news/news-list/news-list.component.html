@@ -1,30 +1,38 @@
+<div class="header-wrapper">
+  <img class="abi-image-opts noticias-img " src="../../../../assets/assets/images/noticias/1.jpg" alt="UNIVAFU-idiomas">
+  <div class="abi-centrar">
+    <div class="line abi-info-line contacto-line"></div>
+    <h1>NOTICIAS</h1>
+  </div>
+</div>
 <div class="noticias-wrapper">
-
-    <img src="../../../assets/assets/images/noticias-y-eventos/1.jpg" alt="UNIVAFU" class="noticias-img">
-
-    <div class="noticias-info">
-      <div class="line noticias-line"></div>
-      <h1>NOTICIAS</h1>
-    </div>
-
     <div class="noticias-posts">
-        <mat-card class="example-card" *ngFor="let noticia of noticias">
-            <mat-card-header>
+      <span *ngFor="let noticia of noticias" >
+        <mat-card class="example-card"  *ngIf="noticia.status">
+            <mat-card-header >
               <div mat-card-avatar class="example-header-image"></div>
               <mat-card-title>{{noticia.title}}</mat-card-title>
               <mat-card-subtitle>{{noticia.createdAt | date}}</mat-card-subtitle>
             </mat-card-header>
-            <img mat-card-image [src]="'https://univafu-server.herokuapp.com/' + noticia.imagePath" alt="{{noticia.title}}">
+            <img mat-card-image [src]="newsService.urlApiMedia + noticia.imagePath" alt="{{noticia.title}}">
             <mat-card-content>
               <p class="card-txt">
                 {{noticia.description}}
               </p>
             </mat-card-content>
             <mat-card-actions style="color:white;">
-              <button  mat-raised-button color="primary" (click)="selectedNew(noticia._id)">VER NOTICIA</button>
-              <button mat-raised-button color="warn">COMPARTIR</button>
+              <button  mat-raised-button color="primary" (click)="selectedNew(noticia._id)"
+              style="background-color: #3d95d4;
+              color: #fff;">
+              VER NOTICIA</button>
+              <button mat-raised-button color="warn"
+              style="background-color: #d98a1b;
+              color: #fff;">
+              COMPARTIR</button>
             </mat-card-actions>
           </mat-card>
+          </span>
+
     
       </div>
   </div>

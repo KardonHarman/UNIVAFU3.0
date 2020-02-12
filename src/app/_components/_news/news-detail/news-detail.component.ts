@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Compiler } from '@angular/core';
 import { NewsService } from 'src/app/_services/news.service';
 import { New } from '../../../models/news'
 import { ActivatedRoute, Router } from '@angular/router';
@@ -12,19 +12,20 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class NewsDetailComponent implements OnInit {
 
-  id: string;
-  noticia: New;
+  slug: string;
+  noticia: New | any[] = [];
   constructor(
     private newsService: NewsService,
     private ar: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private _compiler : Compiler
     ) { }
 
   ngOnInit() {
     this.ar.params.subscribe(
       params => {
-        this.id = params['id'];
-        this.newsService.getNew(this.id)
+        this.slug = params['slug'];
+        this.newsService.getNew(this.slug)
           .subscribe(
             res => {
               console.log(res);
@@ -34,6 +35,7 @@ export class NewsDetailComponent implements OnInit {
           )
       }
     )
+    this._compiler.clearCache();
   }
 
 

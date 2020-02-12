@@ -1,10 +1,23 @@
 <div class="noticias-wrapper">
-
-  <img [src]="'https://univafu-server.herokuapp.com/' + noticia.noticia.imagePath" alt="{{noticia.title}}" class="noticias-img">
-
   <div class="noticias-info">
-    <div class="line noticias-line"></div>
-    <h1>{{noticia}}</h1>
+    <h1>{{noticia.news.title}}</h1>
   </div>
-
 </div>
+
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+      <img [src]="newsService.urlApiMedia + noticia.news.imagePath" alt="{{noticia.title}}" class="noticias-img" >
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <div class="noticias-description">
+      {{noticia.news.description}}
+    </div>
+    <div class="noticias-share">
+        <h3>¡Comparte en tus redes sociales!</h3>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_inline_share_toolbox"></div>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<app-footer></app-footer>
