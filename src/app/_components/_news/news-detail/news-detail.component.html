@@ -1,23 +1,64 @@
-<div class="noticias-wrapper">
-  <div class="noticias-info">
-    <h1>{{noticia.news.title}}</h1>
-  </div>
+<div class="header-wrapper">
+    <img class="abi-image-opts noticias-img " src="../../../../assets/assets/images/noticias/1.jpg" alt="UNIVAFU-idiomas">
+    <div class="abi-centrar">
+        <div class="line abi-info-line contacto-line"></div>
+        <h1>NOTICIAS</h1>
+    </div>
 </div>
-
-<mat-grid-list cols="2" rowHeight="2:1">
-  <mat-grid-tile>
-      <img [src]="newsService.urlApiMedia + noticia.news.imagePath" alt="{{noticia.title}}" class="noticias-img" >
-  </mat-grid-tile>
-  <mat-grid-tile>
-    <div class="noticias-description">
-      {{noticia.news.description}}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="oferta-educativa-wrapper">
+                <div class="oec-info-wrapper">
+                    <div class="oec-box1">
+                        <div class="line oec-line"></div>
+                        <h1> {{noticia.news.title}}
+                            <br *ngIf="_uvfService.mobileQuery.matches"></h1>
+                    </div>
+                    <div class="oec-box2">
+                        <p>{{noticia.news.description}}</p>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <mat-icon aria-hidden="false" aria-label="Example home icon">access_time</mat-icon>
+                            {{noticia.news.createdAt | date}}
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <img [src]="newsService.urlApiMedia + noticia.news.imagePath" alt="{{noticia.title}}" class="noticias-image">
+            <div class="noticias-description">
+                {{noticia.news.detail}}
+            </div>
+            <div class="noticias-share">
+                <h3>¡Comparte en tus redes sociales!</h3>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+            </div>
+        </div>
+        <div class="col-sm-4" style="background-color: #f4f4f4; box-shadow: 0 3px 20px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="oec-box3">
+                        <div class="line oec-line"></div>
+                        <h1> MÁS
+                            <br *ngIf="_uvfService.mobileQuery.matches">NOTICIAS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row oec-news-wrapper" *ngFor="let obj of noticias | slice:0:6">
+                <div class="col-sm-12">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img mn-img" (click)="selectedNew(obj._id)" [src]="newsService.urlApiMedia + obj.imagePath" alt="{{obj.title}}">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">{{obj.title}}</h5>
+                            <p class="card-text">{{obj.createdAt | date}}</p>
+                            <button mat-raised-button color="warn" class="text-left" (click)="selectedNew(obj._id)">Ir a
+                noticia</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="noticias-share">
-        <h3>¡Comparte en tus redes sociales!</h3>
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-        <div class="addthis_inline_share_toolbox"></div>
-    </div>
-  </mat-grid-tile>
-</mat-grid-list>
+</div>
 
 <app-footer></app-footer>

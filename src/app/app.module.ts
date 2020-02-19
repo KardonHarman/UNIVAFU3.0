@@ -11,6 +11,7 @@ import { UvfService } from './_services/uvf.service';
 import { HttpClientModule } from '../../node_modules/@angular/common/http';
 import { AlgebraixDialogComponent } from './_components/_dialogs/algebraix-dialog/algebraix-dialog.component';
 import { RouteGuardService } from './_services/route-guard.service';
+import { NewsService } from './_services/news.service';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { RouteGuardService } from './_services/route-guard.service';
   ],
   providers: [
     UvfService,
-    RouteGuardService
+    RouteGuardService,
+    NewsService
   ],
   entryComponents: [
     AlgebraixDialogComponent

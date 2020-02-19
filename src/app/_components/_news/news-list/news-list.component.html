@@ -7,7 +7,7 @@
 </div>
 <div class="noticias-wrapper">
     <div class="noticias-posts">
-      <span *ngFor="let noticia of noticias" >
+      <!-- <span *ngFor="let noticia of noticias" >
         <mat-card class="example-card"  *ngIf="noticia.status">
             <mat-card-header >
               <div mat-card-avatar class="example-header-image"></div>
@@ -31,6 +31,19 @@
               COMPARTIR</button>
             </mat-card-actions>
           </mat-card>
+          </span> -->
+          <span *ngFor="let noticia of noticias" >
+            <div class="card example-card" style="width: 18rem;" *ngIf="noticia.status">
+              <img class="card-img-top example-header-image" [src]="newsService.urlApiMedia + noticia.imagePath" alt="{{noticia.title}}">
+              <div class="card-body">
+                  <h5 class="card-title">{{noticia.title}}</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><mat-icon aria-hidden="false" aria-label="Example home icon">access_time</mat-icon>{{noticia.createdAt | date}}</h6>
+                  <p class="card-text card-txt">{{noticia.description}}</p>
+                  <button mat-raised-button (click)="selectedNew(noticia._id)"
+                  style="background-color: #3d95d4;
+                  color: #fff;">VER NOTICIA</button>
+              </div>
+            </div>
           </span>
 
     

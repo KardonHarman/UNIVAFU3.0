@@ -80,10 +80,6 @@ export class RouteGuardService implements CanActivate, CanActivateChild {
 
   setProgramaDataLic(url: string) {
     switch (url.split("/")[3]) {
-      case "lcfd": {
-        this._uvfService.setProgramasData(this._uvfService.licenciaturasData.lcfd);
-        break;
-      }
       case "lgtyg": {
         this._uvfService.setProgramasData(this._uvfService.licenciaturasData.lgtyg);
         break;

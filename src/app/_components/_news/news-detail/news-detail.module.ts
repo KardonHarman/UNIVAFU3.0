@@ -9,7 +9,7 @@ import { NewsDetailRoutingModule } from './news-detail-routing.module';
   imports: [
     CommonModule,
     NewsDetailRoutingModule,
-    MaterialComponentsModule
+    MaterialComponentsModule,
   ],
   declarations: [
     NewsDetailComponent,

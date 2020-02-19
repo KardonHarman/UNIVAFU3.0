@@ -1,17 +1,12 @@
 {
     "headers": {
-        "imgUrl": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/carreras_portada.jpg",
+        "imgUrl": "/assets/assets/images/oferta-educativa/licenciaturas/2.jpg",
         "title": "LICENCIATURAS",
         "title2": "PROGRAMAS",
         "title3": " PROFESIONALES",
         "desc": "Te invitamos a conocer los programas profesionales que UNIVAFU Universidad tiene para tí."
     },
-    "links": [
-        {
-            "label": "Licenciatura en Cultura Física y Deporte",
-            "url": "lcfd"
-        },
-        {
+    "links": [{
             "label": "Licenciatura en Gestión Turística y Gastronomía",
             "url": "lgtyg"
         },
@@ -48,242 +43,19 @@
             "url": "lmkt"
         }
     ],
-    "lcfd": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lcfd/licenciatura_deporte_1.jpg",
-        "titulo1": "Licenciatura en Cultura Física y Deporte",
-        "desc1": "Podrás adquirir bases científicas para la formación docente en la educación física, el entrenamiento deportivo, la recreación y la cultura física terapéutica, regida por valores y principios que permitan el desarrollo físico y mental del ser humano.",
-        "titulo2": "Campo Profesional",
-        "subTitulo2": "",
-        "desc2": "Como docente en instituciones educativas de todos los niveles, promotor de la salud en organismos de salud pública y privada y administrador deportivo. En centros especializados en deporte, rehabilitación y preparación física.",
-        "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lcfd/licenciatura_deporte_2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lcfd/licenciatura_deporte_3.jpg",
-        "titulo3": "Perfil de Ingreso",
-        "desc3": "",
-        "lista3": [
-            {
-                "line": "Pasión por la actividad física, el deporte y la recreación."
-            },
-            {
-                "line": "Gusto por el trabajo en equipo y gran espíritu de servicio."
-            },
-            {
-                "line": "Gusto por la docencia y la investigación."
-            }
-        ],
-        "semestres": [
-            {
-                "titulo": "1er Semestre",
-                "materias": [
-                    {
-                        "titulo": "Morfología"
-                    },
-                    {
-                        "titulo": "Historia de la Cultura Física"
-                    },
-                    {
-                        "titulo": "Atletismo"
-                    },
-                    {
-                        "titulo": "Natación"
-                    },
-                    {
-                        "titulo": "Taller de Expresión Oral y Escrita"
-                    },
-                    {
-                        "titulo": "Tecnologías de Información y Comunicación (TIC'S)"
-                    },
-                    {
-                        "titulo": "Valores Humanos"
-                    }
-                ]
-            },
-            {
-                "titulo": "2do Semestre",
-                "materias": [
-                    {
-                        "titulo": "Bioquímica"
-                    },
-                    {
-                        "titulo": "Deporte y Salud"
-                    },
-                    {
-                        "titulo": "Básquetbol"
-                    },
-                    {
-                        "titulo": "Teoría y Práctica de los Juegos"
-                    },
-                    {
-                        "titulo": "Análisis de la Información"
-                    },
-                    {
-                        "titulo": "Inglés I"
-                    },
-                    {
-                        "titulo": "Estadística"
-                    }
-                ]
-            },
-            {
-                "titulo": "3er Semestre",
-                "materias": [
-                    {
-                        "titulo": "Fisiología"
-                    },
-                    {
-                        "titulo": "Psicología del Deporte"
-                    },
-                    {
-                        "titulo": "Voleibol"
-                    },
-                    {
-                        "titulo": "Deporte Autóctono"
-                    },
-                    {
-                        "titulo": "Teoría y  Práctica de la Gimnasia"
-                    },
-                    {
-                        "titulo": "Metodología de la Investigación"
-                    },
-                    {
-                        "titulo": "Inglés II"
-                    }
-                ]
-            },
-            {
-                "titulo": "4to Semestre",
-                "materias": [
-                    {
-                        "titulo": "Biomecánica del Ejercicio Físico"
-                    },
-                    {
-                        "titulo": "Psicopedagogía Deportiva"
-                    },
-                    {
-                        "titulo": "Psicomotricidad"
-                    },
-                    {
-                        "titulo": "Handball"
-                    },
-                    {
-                        "titulo": "Ajedrez"
-                    },
-                    {
-                        "titulo": "Recreación Básica y Turística"
-                    },
-                    {
-                        "titulo": "Desarrollo Sustentable"
-                    }
-                ]
-            },
-            {
-                "titulo": "5to Semestre",
-                "materias": [
-                    {
-                        "titulo": "Fisioterapia"
-                    },
-                    {
-                        "titulo": "Educación Física Especial"
-                    },
-                    {
-                        "titulo": "Teoría y Metodología de la Educación Física"
-                    },
-                    {
-                        "titulo": "Fútbol"
-                    },
-                    {
-                        "titulo": "Deportes con Raqueta"
-                    },
-                    {
-                        "titulo": "Organización Deportiva"
-                    },
-                    {
-                        "titulo": "Liderazgo"
-                    }
-                ]
-            },
-            {
-                "titulo": "6to Semestre",
-                "materias": [
-                    {
-                        "titulo": "Ejercicio Físico y Rehabilitación"
-                    },
-                    {
-                        "titulo": "Educación Física en Preescolar"
-                    },
-                    {
-                        "titulo": "Deportes sobre Ruedas"
-                    },
-                    {
-                        "titulo": "Béisbol"
-                    },
-                    {
-                        "titulo": "Taller de Clubes Deportivos y Recreativos"
-                    },
-                    {
-                        "titulo": "Calidad en la Cultura Física"
-                    }
-                ]
-            },
-            {
-                "titulo": "7mo Semestre",
-                "materias": [
-                    {
-                        "titulo": "Nutrición en la Actividad Física"
-                    },
-                    {
-                        "titulo": "Observación Práctica Docente I"
-                    },
-                    {
-                        "titulo": "Introducción a Deportes de Combate"
-                    },
-                    {
-                        "titulo": "Halterofilia y Fisicoconstructivismo"
-                    },
-                    {
-                        "titulo": "Teoría y Metodología del Entrenamiento Deportivo"
-                    },
-                    {
-                        "titulo": "Cultura Emprendedora"
-                    }
-                ]
-            },
-            {
-                "titulo": "8vo Semestre",
-                "materias": [
-                    {
-                        "titulo": "Medicina Deportiva"
-                    },
-                    {
-                        "titulo": "Observación Práctica Docente II"
-                    },
-                    {
-                        "titulo": "Control y Evaluación del Rendimiento Físico"
-                    },
-                    {
-                        "titulo": "Desarrollo de Emprendedores"
-                    },
-                    {
-                        "titulo": "Seminario de Trabajo de Investigación"
-                    }
-                ]
-            }
-        ]
-    },
     "lgtyg": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lgtyg/licenciatura_turismo_1.jpg",
+        "urlImg1": "/assets/assets/images/oferta-educativa/licenciaturas/lgtyg/1.jpg",
         "titulo1": "Licenciatura en Gestión Turística y Gastronomía",
         "desc1": "Conocerás la gestión y promoción del turismo, a través de la aplicación de procesos administrativos efectivos y de calidad, para  la satisfacción del cliente; además del desarrollo de habilidades técnicas gastronómicas, regidas por estándares de calidad internacional.",
         "titulo2": "Campo Profesional",
         "subTitulo2": "",
         "desc2": "Administrando empresas en la industria de alimentos y bebidas, gestor y promotor de la actividad turística y la cultura gastronómica nacional. Desarrollando alta cocina; en secretarías de gobierno diseñando proyectos turísticos sustentables o gestionando tu propia empresa.",
         "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lgtyg/licenciatura_turismo_2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lgtyg/licenciatura_turismo_3.jpg",
+        "urlImg2": "/assets/assets/images/oferta-educativa/licenciaturas/lgtyg/2.jpg",
+        "urlImg3": "/assets/assets/images/oferta-educativa/licenciaturas/lgtyg/3.jpg",
         "titulo3": "Perfil de Ingreso",
         "desc3": "",
-        "lista3": [
-            {
+        "lista3": [{
                 "line": "Gusto por la preparación de alimentos y bebidas."
             },
             {
@@ -305,11 +77,9 @@
                 "line": "Gusto por los idiomas."
             }
         ],
-        "semestres": [
-            {
+        "semestres": [{
                 "titulo": "1er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Turismo y Medio Ambiente"
                     },
                     {
@@ -337,8 +107,7 @@
             },
             {
                 "titulo": "2do Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Planificación del Turismo"
                     },
                     {
@@ -363,8 +132,7 @@
             },
             {
                 "titulo": "3er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Gestión del Hospedaje"
                     },
                     {
@@ -389,8 +157,7 @@
             },
             {
                 "titulo": "4to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Patrimonio Turístico"
                     },
                     {
@@ -418,8 +185,7 @@
             },
             {
                 "titulo": "5to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Circuitos Turísticos Nacionales e Internacionales"
                     },
                     {
@@ -444,8 +210,7 @@
             },
             {
                 "titulo": "6to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Organización de Eventos, Ferias y Exposiciones"
                     },
                     {
@@ -461,8 +226,7 @@
             },
             {
                 "titulo": "7mo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Development of Management Skills"
                     },
                     {
@@ -478,8 +242,7 @@
             },
             {
                 "titulo": "8vo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Taller de Guías Turísticos"
                     },
                     {
@@ -499,19 +262,18 @@
         ]
     },
     "isdi": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/isdi/licenciatura_sistemas_1.jpg",
+        "urlImg1": "/assets/assets/images/oferta-educativa/licenciaturas/isdi/1.jpg",
         "titulo1": "Ingeniería en Sistemas Digitales Interactivos",
         "desc1": "Entenderás los fundamentos de los sistemas digitales, los procesos y herramientas de desarrollo de software y el diseño de sistemas electrónicos, aplicando elementos digitales, como lo son: sensores, actuadores, interfaces de usuario, micro controladores, sistemas de información, entre otros.",
         "titulo2": "Campo Profesional",
         "subTitulo2": "",
         "desc2": "Gestionando tu propia empresa, ofreciendo servicios de asesoría, automatización y desarrollo de tecnologías. En empresas de desarrollo de software, instituciones educativas, empresas orientadas al desarrollo de tecnologías computacionales, procesos industriales, y/o participando en centros de investigación.",
         "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/isdi/licenciatura_sistemas_2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/isdi/licenciatura_sistemas_3.jpg",
+        "urlImg2": "/assets/assets/images/oferta-educativa/licenciaturas/isdi/2.jpg",
+        "urlImg3": "/assets/assets/images/oferta-educativa/licenciaturas/isdi/3.jpg",
         "titulo3": "Perfil de Ingreso",
         "desc3": "",
-        "lista3": [
-            {
+        "lista3": [{
                 "line": "Pasión por la tecnología."
             },
             {
@@ -530,11 +292,9 @@
                 "line": "Actitud autodidacta y emprendedora."
             }
         ],
-        "semestres": [
-            {
+        "semestres": [{
                 "titulo": "1er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Álgebra"
                     },
                     {
@@ -559,8 +319,7 @@
             },
             {
                 "titulo": "2do Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Álgebra Lineal"
                     },
                     {
@@ -585,8 +344,7 @@
             },
             {
                 "titulo": "3er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Cálculo Diferencial e Integral"
                     },
                     {
@@ -611,8 +369,7 @@
             },
             {
                 "titulo": "4to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Cálculo Vectorial"
                     },
                     {
@@ -634,8 +391,7 @@
             },
             {
                 "titulo": "5to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Ecuaciones Diferenciales"
                     },
                     {
@@ -657,8 +413,7 @@
             },
             {
                 "titulo": "6to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Tópicos Selectos de Programación II"
                     },
                     {
@@ -677,8 +432,7 @@
             },
             {
                 "titulo": "7mo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Programación para Móviles I"
                     },
                     {
@@ -697,8 +451,7 @@
             },
             {
                 "titulo": "8vo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Programación para Móviles II"
                     },
                     {
@@ -715,19 +468,18 @@
         ]
     },
     "lnut": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lnut/licenciatura_nutricion_1.jpg",
+        "urlImg1": "/assets/assets/images/oferta-educativa/licenciaturas/lnut/1.jpg",
         "titulo1": "Licenciatura en Nutrición",
         "desc1": "Obtendrás conocimientos sobre la interacción de los alimentos con el organismo humano y su actuación en los procesos de salud y enfermedad. Comprenderás las implicaciones sociales, psicológicas y culturales inmersas en la ciencia de la nutrición. Formularás, elaborarás e innovarás, diversos productos alimenticios, todo ello en un marco de respeto y ética profesional, atendiendo las normas oficiales de carácter nacional e internacional vigentes.",
         "titulo2": "Campo Profesional",
         "subTitulo2": "",
         "desc2": "Podrás integrarte a equipos de trabajo multidisciplinarios dentro del área clínica y hospitalaria, dedicados a la contribución de la calidad de vida de las personas, desarrollarás planes de intervención nutricional para centros deportivos y educativos. Aportarás valor como asesor en empresas de tipo público y privado, o creando tu consultorio propio. Socialmente podrás participar en actividades de prevención, diagnóstico y apoyo nutricional, con el objetivo de preservar la salud, además de contribuir al desarrollo de las ciencias médicas a través de la investigación.",
         "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lnut/licenciatura_nutricion_2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lnut/licenciatura_nutricion_3.jpg",
+        "urlImg2": "/assets/assets/images/oferta-educativa/licenciaturas/lnut/2.jpg",
+        "urlImg3": "/assets/assets/images/oferta-educativa/licenciaturas/lnut/3.jpg",
         "titulo3": "Perfil de Ingreso",
         "desc3": "",
-        "lista3": [
-            {
+        "lista3": [{
                 "line": "Gusto por el área clínica."
             },
             {
@@ -740,11 +492,9 @@
                 "line": "Gusto por la investigación y los idiomas."
             }
         ],
-        "semestres": [
-            {
+        "semestres": [{
                 "titulo": "1er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Anatomía y Fisiología I"
                     },
                     {
@@ -766,8 +516,7 @@
             },
             {
                 "titulo": "2do Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Anatomía y Fisiología II"
                     },
                     {
@@ -792,8 +541,7 @@
             },
             {
                 "titulo": "3er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Farmacología y Toxicología Básica"
                     },
                     {
@@ -818,8 +566,7 @@
             },
             {
                 "titulo": "4to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Cálculo Dietético"
                     },
                     {
@@ -844,8 +591,7 @@
             },
             {
                 "titulo": "5to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Dietoterapia I"
                     },
                     {
@@ -867,8 +613,7 @@
             },
             {
                 "titulo": "6to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Dietoterapia II"
                     },
                     {
@@ -890,8 +635,7 @@
             },
             {
                 "titulo": "7mo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Apoyo Metabólico"
                     },
                     {
@@ -910,8 +654,7 @@
             },
             {
                 "titulo": "8vo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Genética de la Nutrición"
                     },
                     {
@@ -930,28 +673,25 @@
             },
             {
                 "titulo": "Servicio social",
-                "materias": [
-                    {
-                        "titulo": "El servicio social es obligatorio para los alumnos y egresados de educación superior incorporadas a SEPyC, y es requisito previo para la obtención del título correspondiente."
-                    }
-                ]
+                "materias": [{
+                    "titulo": "El servicio social es obligatorio para los alumnos y egresados de educación superior incorporadas a SEPyC, y es requisito previo para la obtención del título correspondiente."
+                }]
             }
         ]
     },
     "ltal": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/ltal/licenciatura_audicion_1.jpg",
+        "urlImg1": "/assets/assets/images/oferta-educativa/licenciaturas/ltal/1.jpg",
         "titulo1": "Licenciatura en Terapia de Audición y Lenguaje",
         "desc1": "Conocerás y diagnosticarás los trastornos de Audición y Lenguaje; atenderás a pacientes de todas las edades que presenten dificultades, tanto en  el desarrollo  del lenguaje y/o la comunicación, como en proporcionar terapia, tratamiento o reeducación en los posibles trastornos que aparecen en el área de la comunicación humana.",
         "titulo2": "Campo Profesional",
         "subTitulo2": "",
         "desc2": "Como especialista en rehabilitación de los trastornos de la audición, lenguaje y comunicación, en centros hospitalarios y de rehabilitación, en el ámbito educativo y empresarial; así como en el ejercicio de la práctica privada.",
         "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/ltal/licenciatura_audicion_2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/ltal/licenciatura_audicion_3.jpg",
+        "urlImg2": "/assets/assets/images/oferta-educativa/licenciaturas/ltal/2.jpg",
+        "urlImg3": "/assets/assets/images/oferta-educativa/licenciaturas/ltal/3.jpg",
         "titulo3": "Perfil de Ingreso",
         "desc3": "",
-        "lista3": [
-            {
+        "lista3": [{
                 "line": "Gusto por el área de la Salud y Clínica."
             },
             {
@@ -961,11 +701,9 @@
                 "line": "Compromiso y respeto por la diversidad."
             }
         ],
-        "semestres": [
-            {
+        "semestres": [{
                 "titulo": "1er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Psicología General"
                     },
                     {
@@ -990,8 +728,7 @@
             },
             {
                 "titulo": "2do Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Psicología de la Comunicación Humana"
                     },
                     {
@@ -1016,8 +753,7 @@
             },
             {
                 "titulo": "3er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Didáctica y Organización Escolar "
                     },
                     {
@@ -1042,8 +778,7 @@
             },
             {
                 "titulo": "4to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Psicología del Aprendizaje"
                     },
                     {
@@ -1065,8 +800,7 @@
             },
             {
                 "titulo": "5to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Trastornos de Aprendizaje "
                     },
                     {
@@ -1088,8 +822,7 @@
             },
             {
                 "titulo": "6to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Diagnóstico Psicopedagógico "
                     },
                     {
@@ -1111,8 +844,7 @@
             },
             {
                 "titulo": "7mo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Psicoterapia   "
                     },
                     {
@@ -1131,8 +863,7 @@
             },
             {
                 "titulo": "8vo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Práctica Psicoterapéutica"
                     },
                     {
@@ -1151,28 +882,25 @@
             },
             {
                 "titulo": "Servicio social",
-                "materias": [
-                    {
-                        "titulo": "El servicio social es obligatorio para los alumnos y egresados de educación superior incorporadas a SEPyC, y es requisito previo para la obtención del título correspondiente."
-                    }
-                ]
+                "materias": [{
+                    "titulo": "El servicio social es obligatorio para los alumnos y egresados de educación superior incorporadas a SEPyC, y es requisito previo para la obtención del título correspondiente."
+                }]
             }
         ]
     },
     "ltfyr": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/ltfyr/licenciatura_terapia_1.jpg",
+        "urlImg1": "/assets/assets/images/oferta-educativa/licenciaturas/ltfyr/1.jpg",
         "titulo1": "Licenciatura en Terapia Física y Rehabilitación",
         "desc1": "Dominarás los conocimientos científicos del área de la salud, medicina de rehabilitación y terapia física; cuyo propósito principal es prevenir, desarrollar, mantener y restaurar el máximo movimiento y capacidad funcional del ser humano; a través de medios físico-terapéuticos, ejercicios y técnicas específicas de rehabilitación.",
         "titulo2": "Campo Profesional",
         "subTitulo2": "",
         "desc2": "Integrándote a equipos de trabajo multidisciplinarios en hospitales y clínicas públicas y/o privadas. Como profesional independiente de la práctica clínica privada. En centros educativos y de investigación, clubes deportivos y centro de atención especializados.",
         "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/ltfyr/licenciatura_terapia_2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/ltfyr/licenciatura_terapia_3.jpg",
+        "urlImg2": "/assets/assets/images/oferta-educativa/licenciaturas/ltfyr/2.jpg",
+        "urlImg3": "/assets/assets/images/oferta-educativa/licenciaturas/ltfyr/3.jpg",
         "titulo3": "Perfil de Ingreso",
         "desc3": "",
-        "lista3": [
-            {
+        "lista3": [{
                 "line": "Gusto por el área de la salud y clínica."
             },
             {
@@ -1182,11 +910,9 @@
                 "line": "Compromiso y respeto por la diversidad."
             }
         ],
-        "semestres": [
-            {
+        "semestres": [{
                 "titulo": "1er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Anatomía Humana I"
                     },
                     {
@@ -1214,8 +940,7 @@
             },
             {
                 "titulo": "2do Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Anatomía Humana II"
                     },
                     {
@@ -1240,8 +965,7 @@
             },
             {
                 "titulo": "3er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Psicología en la Rehabilitación"
                     },
                     {
@@ -1266,8 +990,7 @@
             },
             {
                 "titulo": "4to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Imagenología"
                     },
                     {
@@ -1289,8 +1012,7 @@
             },
             {
                 "titulo": "5to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Farmacología"
                     },
                     {
@@ -1312,8 +1034,7 @@
             },
             {
                 "titulo": "6to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Nutrición en la Rehabilitación"
                     },
                     {
@@ -1335,8 +1056,7 @@
             },
             {
                 "titulo": "7mo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Rehabilitación en la Actividad Física"
                     },
                     {
@@ -1355,8 +1075,7 @@
             },
             {
                 "titulo": "8vo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Terapia Ocupacional"
                     },
                     {
@@ -1372,28 +1091,25 @@
             },
             {
                 "titulo": "Servicio social",
-                "materias": [
-                    {
-                        "titulo": "El servicio social es obligatorio para los alumnos y egresados de educación superior incorporadas a SEPyC, y es requisito previo para la obtención del título correspondiente."
-                    }
-                ]
+                "materias": [{
+                    "titulo": "El servicio social es obligatorio para los alumnos y egresados de educación superior incorporadas a SEPyC, y es requisito previo para la obtención del título correspondiente."
+                }]
             }
         ]
     },
     "lgas": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lgas/licenciatura_gastronomia_1.jpg",
+        "urlImg1": "/assets/assets/images/oferta-educativa/licenciaturas/lgas/1.jpg",
         "titulo1": "Licenciatura en Gastronomía",
         "desc1": "Tendrás la oportunidad de desarrollar tus habilidades culinarias y administrativas, y al mismo tiempo compartir experiencias, sabores y culturas. Aplicarás técnicas y métodos vanguardistas en la realización de los procesos de producción de los distintos alimentos y bebidas; además de realizar prácticas profesionales de alto impacto,  comunicándote a través de los idiomas inglés y francés.",
         "titulo2": "Campo Profesional",
         "subTitulo2": "",
         "desc2": "En la administración de alimentos y bebidas en restaurantes, hoteles de alto prestigio, cruceros, comedores industriales, cadenas de restaurantes, banquetes, asesoría culinaria, diseños de menú en restaurantes, bares y hasta dirigir un restaurante propio o de alta hotelería, regido por estándares de calidad internacionales.",
         "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lgas/licenciatura_gastronomia_2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lgas/licenciatura_gastronomia_3.jpg",
+        "urlImg2": "/assets/assets/images/oferta-educativa/licenciaturas/lgas/2.jpg",
+        "urlImg3": "/assets/assets/images/oferta-educativa/licenciaturas/lgas/3.jpg",
         "titulo3": "Perfil de Ingreso",
         "desc3": "",
-        "lista3": [
-            {
+        "lista3": [{
                 "line": "Gusto por la preparación de alimentos y bebidas."
             },
             {
@@ -1409,11 +1125,9 @@
                 "line": "Gusto por los idiomas y otras culturas."
             }
         ],
-        "semestres": [
-            {
+        "semestres": [{
                 "titulo": "1er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Matemáticas Aplicadas"
                     },
                     {
@@ -1441,8 +1155,7 @@
             },
             {
                 "titulo": "2do Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Administración"
                     },
                     {
@@ -1470,8 +1183,7 @@
             },
             {
                 "titulo": "3er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Gestión de Capital Humano"
                     },
                     {
@@ -1496,8 +1208,7 @@
             },
             {
                 "titulo": "4to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Legislación Laboral"
                     },
                     {
@@ -1522,8 +1233,7 @@
             },
             {
                 "titulo": "5to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Mercadotecnia y Comercialización Gastronómica"
                     },
                     {
@@ -1548,8 +1258,7 @@
             },
             {
                 "titulo": "6to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Habilidades Directivas"
                     },
                     {
@@ -1571,8 +1280,7 @@
             },
             {
                 "titulo": "7mo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Toma de Decisiones"
                     },
                     {
@@ -1591,28 +1299,25 @@
             },
             {
                 "titulo": "8vo Semestre",
-                "materias": [
-                    {
-                        "titulo": "Estadía Gastronómica"
-                    }
-                ]
+                "materias": [{
+                    "titulo": "Estadía Gastronómica"
+                }]
             }
         ]
     },
     "ldvm": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/ldvm/licenciatura_mercadotecnia_1.jpg",
+        "urlImg1": "/assets/assets/images/oferta-educativa/licenciaturas/ldvm/1.jpg",
         "titulo1": "Licenciatura en Dirección de Ventas y Marketing",
         "desc1": "Desarrollarás habilidades de ventas, marketing, investigación de mercados, campañas publicitarias, comercio electrónico y relaciones públicas; además, de realizar prácticas profesionales de alto nivel en empresas, comunicándote en los idiomas inglés y chino mandarín.",
         "titulo2": "Campo Profesional",
         "subTitulo2": "",
         "desc2": "Liderando las ventas en mercados altamente competitivos, diseñando y ejecutando estrategias comerciales en los equipos de venta y relaciones públicas, identificando clientes potenciales para mejorar la situación de las empresas privadas, públicas o de tu propia empresa.",
         "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/ldvm/licenciatura_mercadotecnia_2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/ldvm/licenciatura_mercadotecnia_3.jpg",
+        "urlImg2": "/assets/assets/images/oferta-educativa/licenciaturas/ldvm/2.jpg",
+        "urlImg3": "/assets/assets/images/oferta-educativa/licenciaturas/ldvm/3.jpg",
         "titulo3": "Perfil de Ingreso",
         "desc3": "",
-        "lista3": [
-            {
+        "lista3": [{
                 "line": "Facilidad para relaciones públicas."
             },
             {
@@ -1628,11 +1333,9 @@
                 "line": "Espíritu emprendedor."
             }
         ],
-        "semestres": [
-            {
+        "semestres": [{
                 "titulo": "1er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Administración"
                     },
                     {
@@ -1660,8 +1363,7 @@
             },
             {
                 "titulo": "2do Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Derecho Constitucional y Administrativo"
                     },
                     {
@@ -1689,8 +1391,7 @@
             },
             {
                 "titulo": "3er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Derecho Comercial y Mercantil "
                     },
                     {
@@ -1718,8 +1419,7 @@
             },
             {
                 "titulo": "4to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Comercio Internacional"
                     },
                     {
@@ -1744,8 +1444,7 @@
             },
             {
                 "titulo": "5to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Geografía Económica Internacional"
                     },
                     {
@@ -1770,8 +1469,7 @@
             },
             {
                 "titulo": "6to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Desarrollo de Habilidades Directivas"
                     },
                     {
@@ -1790,8 +1488,7 @@
             },
             {
                 "titulo": "7mo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Planeación Estratégica"
                     },
                     {
@@ -1810,28 +1507,25 @@
             },
             {
                 "titulo": "8vo Semestre",
-                "materias": [
-                    {
-                        "titulo": "Estadía Empresarial"
-                    }
-                ]
+                "materias": [{
+                    "titulo": "Estadía Empresarial"
+                }]
             }
         ]
     },
     "isc": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/isc/licenciatura_isc_1.jpg",
+        "urlImg1": "/assets/assets/images/oferta-educativa/licenciaturas/isc/1.jpg",
         "titulo1": "Ingeniería en Sistemas Computacionales",
         "desc1": "Si buscas estar a la vanguardia en los cambios tecnológicos, te apasiona el desarrollo de software para dar soluciones innovadoras, te motivan los retos lógico-matemáticos, y tienes un talento creativo digital, ¡Esta carrera es para ti!",
         "titulo2": "Campo Profesional",
         "subTitulo2": "",
         "desc2": "En instituciones del sector público y/o privado, y en el sector industrial, en el área de sistemas, como líder, auditor de sistemas o de proyectos de desarrollo de software. Puedes optar por la docencia y/o incorporarte a proyectos de investigación, o desarrollarte como responsable de departamentos de Tecnologías de Información.",
         "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/isc/licenciatura_isc_2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/isc/licenciatura_isc_3.jpg",
+        "urlImg2": "/assets/assets/images/oferta-educativa/licenciaturas/isc/2.jpg",
+        "urlImg3": "/assets/assets/images/oferta-educativa/licenciaturas/isc/3.jpg",
         "titulo3": "Perfil de Ingreso",
         "desc3": "",
-        "lista3": [
-            {
+        "lista3": [{
                 "line": "Habilidad lógica y capacidad de investigación, análisis, y síntesis de información."
             },
             {
@@ -1850,11 +1544,9 @@
                 "line": "Interés por el uso de las nuevas tecnologías y su implementación en diversas áreas."
             }
         ],
-        "semestres": [
-            {
+        "semestres": [{
                 "titulo": "1er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Álgebra"
                     },
                     {
@@ -1876,8 +1568,7 @@
             },
             {
                 "titulo": "2do Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Álgebra Lineal"
                     },
                     {
@@ -1902,8 +1593,7 @@
             },
             {
                 "titulo": "3er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Cálculo Diferencial e Integral"
                     },
                     {
@@ -1931,8 +1621,7 @@
             },
             {
                 "titulo": "4to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Cálculo Vectorial"
                     },
                     {
@@ -1957,8 +1646,7 @@
             },
             {
                 "titulo": "5to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Investigación de Operaciones"
                     },
                     {
@@ -1983,8 +1671,7 @@
             },
             {
                 "titulo": "6to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Desarrollo de Aplicaciones de Escritorio"
                     },
                     {
@@ -2000,8 +1687,7 @@
             },
             {
                 "titulo": "7mo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Desarrollo en la Nube"
                     },
                     {
@@ -2023,8 +1709,7 @@
             },
             {
                 "titulo": "8vo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Legislación Informática"
                     },
                     {
@@ -2041,19 +1726,18 @@
         ]
     },
     "lmkt": {
-        "urlImg1": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lmkt/1.jpg",
+        "urlImg1": "/assets/assets/images/oferta-educativa/licenciaturas/lmkt/1.jpg",
         "titulo1": "Licenciatura en Marketing Digital",
         "desc1": "Si tienes interés en la publicidad, te apasionan las redes sociales e internet, quieres orientar tus habilidades y destrezas al diseño de estrategias de comercialización en medios digitales que mejoren el alcance de una empresa, ¡Esta carrera es para ti!.",
         "titulo2": "Campo Profesional",
         "subTitulo2": "",
         "desc2": "Gestionando tu propia empresa, ofreciendo servicios de asesorías como FreeLance, impulsando productos y marcas. En empresas que requieran desarrollar sus campañas publicitarias en medios digitales o potencializar su alcance en el ciberespacio.",
         "lista2": [],
-        "urlImg2": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lmkt/2.jpg",
-        "urlImg3": "http://univafu.edu.mx/assetsWebsite/images/oferta-educativa/licenciaturas/lmkt/3.jpg",
+        "urlImg2": "/assets/assets/images/oferta-educativa/licenciaturas/lmkt/2.jpg",
+        "urlImg3": "/assets/assets/images/oferta-educativa/licenciaturas/lmkt/3.jpg",
         "titulo3": "Perfil de Ingreso",
         "desc3": "",
-        "lista3": [
-            {
+        "lista3": [{
                 "line": "Interés por los fundamentos de marketing"
             },
             {
@@ -2066,11 +1750,9 @@
                 "line": "Facilidad para la gestión de redes sociales y  comercio electrónico"
             }
         ],
-        "semestres": [
-            {
+        "semestres": [{
                 "titulo": "1er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Comunicación Visual"
                     },
                     {
@@ -2098,8 +1780,7 @@
             },
             {
                 "titulo": "2do Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Tratamiento de Imágenes"
                     },
                     {
@@ -2124,8 +1805,7 @@
             },
             {
                 "titulo": "3er Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Diseño Digital Publicitario"
                     },
                     {
@@ -2150,8 +1830,7 @@
             },
             {
                 "titulo": "4to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Audio y Video Digital"
                     },
                     {
@@ -2176,8 +1855,7 @@
             },
             {
                 "titulo": "5to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Social Media"
                     },
                     {
@@ -2202,8 +1880,7 @@
             },
             {
                 "titulo": "6to Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Redacción en Medios Digitales"
                     },
                     {
@@ -2225,8 +1902,7 @@
             },
             {
                 "titulo": "7mo Semestre",
-                "materias": [
-                    {
+                "materias": [{
                         "titulo": "Cloud Design"
                     },
                     {
@@ -2248,11 +1924,9 @@
             },
             {
                 "titulo": "8vo Semestre",
-                "materias": [
-                    {
-                        "titulo": "Estadía Empresarial"
-                    }
-                ]
+                "materias": [{
+                    "titulo": "Estadía Empresarial"
+                }]
             }
         ]
     }
